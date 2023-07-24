@@ -1,0 +1,82 @@
+{
+    "trigger_dict": {
+        "1327870035": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "99700cc00ac011ee8982309c23206d62"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1327870035000040, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                3.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1327870035000014, 
+                    "enable": true, 
+                    "event_type": "GAME_ELAPSE_ONCE"
+                }
+            ], 
+            "group_id": "GpJKACljEe61z7Alqk2+nh", 
+            "p_trigger_id": null, 
+            "trigger_id": 1327870035, 
+            "trigger_name": "\u96be\u5ea6\u9009\u62e9", 
+            "valid": true
+        }, 
+        "1696444497": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "group_id": "GpJKACljEe61z7Alqk2+nh", 
+            "p_trigger_id": null, 
+            "trigger_id": 1696444497, 
+            "trigger_name": "\u82f1\u96c4\u9009\u62e9", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1696444497, 
+                    "\u82f1\u96c4\u9009\u62e9"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1327870035, 
+                    "\u96be\u5ea6\u9009\u62e9"
+                ]
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "GpJKACljEe61z7Alqk2+nh", 
+        "name": "\u7cfb\u7edf\u6d41\u7a0b"
+    }
+}

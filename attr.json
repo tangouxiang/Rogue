@@ -1,0 +1,292 @@
+{
+    "b": [], 
+    "c": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "npYzHig3Ee6eyrAlqk2+nl", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u5965\u672f\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "npYzHig3Ee6eyrAlqk2+nl", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GdnocChQEe6MSrAlqk2+nt", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u653b\u51fb\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "GdnocChQEe6MSrAlqk2+nt", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GrLjTyhQEe6PCbAlqk2+nv", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6280\u80fd\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "GrLjTyhQEe6PCbAlqk2+nv", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "GwuKoShQEe6pK7Alqk2+nj", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7279\u6b8a\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "GwuKoShQEe6pK7Alqk2+nj", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "G6E68ChQEe6MKrAlqk2+nv", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6301\u7eed\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "G6E68ChQEe6MKrAlqk2+nv", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "PnKm4ShQEe6OV7Alqk2+nk", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7269\u7406\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "PnKm4ShQEe6OV7Alqk2+nk", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "PwilTyhQEe60b7Alqk2+nj", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "PwilTyhQEe60b7Alqk2+nj", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "P2GawChQEe6nVLAlqk2+nq", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7eaf\u7cb9\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "P2GawChQEe6nVLAlqk2+nq", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "dPHDQChQEe6FTLAlqk2+nl", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u8fd1\u6218\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "dPHDQChQEe6FTLAlqk2+nl", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "dasoMChQEe613LAlqk2+nl", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u8fdc\u7a0b\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "dasoMChQEe613LAlqk2+nl", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "pE3XAChVEe6ZaLAlqk2+nj", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u7269\u7406\u66b4\u51fb\u7387(%)", 
+                    "desc_bit": 1, 
+                    "key": "pE3XAChVEe6ZaLAlqk2+nj", 
+                    "maximun": 70000000000000, 
+                    "minimun": -70000000000000, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "qPc6zyhVEe6ASLAlqk2+nq", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6cd5\u672f\u66b4\u51fb\u7387(%)", 
+                    "desc_bit": 1, 
+                    "key": "qPc6zyhVEe6ASLAlqk2+nq", 
+                    "maximun": 70000000000000, 
+                    "minimun": -70000000000000, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "sJygkShVEe6IQ7Alqk2+nr", 
+                {
+                    "default": 200.0, 
+                    "desc": "\u7269\u7406\u66b4\u51fb\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "sJygkShVEe6IQ7Alqk2+nr", 
+                    "maximun": 70000000000000, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "tkC4DyhVEe61rbAlqk2+nh", 
+                {
+                    "default": 200.0, 
+                    "desc": "\u6cd5\u672f\u66b4\u51fb\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "tkC4DyhVEe61rbAlqk2+nh", 
+                    "maximun": 70000000000000, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "epBQ8ChaEe6zvrAlqk2+nn", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u6b66\u5668\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "epBQ8ChaEe6zvrAlqk2+nn", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "gxjDsChaEe6nNLAlqk2+nl", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u8089\u640f\u4f24\u5bb3(%)", 
+                    "desc_bit": 1, 
+                    "key": "gxjDsChaEe6nNLAlqk2+nl", 
+                    "maximun": 10000.0, 
+                    "minimun": 0.0, 
+                    "type": "Fixed"
+                }
+            ]
+        }
+    ], 
+    "p": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "strength", 
+                {
+                    "d": "\u529b\u91cf", 
+                    "k": "strength", 
+                    "m": []
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "agility", 
+                {
+                    "d": "\u654f\u6377", 
+                    "k": "agility", 
+                    "m": []
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "intelligence", 
+                {
+                    "d": "\u667a\u529b", 
+                    "k": "intelligence", 
+                    "m": []
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "main", 
+                {
+                    "d": "\u4e3b\u5c5e\u6027", 
+                    "k": "main", 
+                    "m": []
+                }
+            ]
+        }
+    ], 
+    "ps": 2
+}

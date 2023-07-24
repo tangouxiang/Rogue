@@ -1,0 +1,1372 @@
+{
+    "trigger_dict": {
+        "1896460394": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u754c\u9762\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER", 
+                                                "\u53c2\u6570\u73a9\u5bb6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 1001556, 
+                                    "args_list": [
+                                        "c7c41931-0d0b-4a54-97e0-b933614ca8f8"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        "9fbf9048-6f22-4276-be4f-4715738b4ef4"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "CREATE_UI_PREFAB_INSTANCE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000001, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u754c\u9762\u63a7\u4ef6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_PREFAB_INSTANCE", 
+                                                "\u754c\u9762\u6a21\u5757", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6807\u9898"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "\u53c2\u6570\u73a9\u5bb6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u754c\u9762\u63a7\u4ef6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "\u53c2\u6570\u6807\u9898", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [], 
+                            "sub_type": "GET_NEW_TABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u5f52\u5c5e\u73a9\u5bb6"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "\u53c2\u6570\u73a9\u5bb6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u754c\u9762\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u8868"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": 400342, 
+                    "args_list": [
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u754c\u9762\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1896460394000007, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_des": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f{\u53c2\u6570\u73a9\u5bb6}", 
+            "func_id": "3d47fe8009d011ee89cd309c23206d62", 
+            "func_name": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u53c2\u6570\u73a9\u5bb6", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u53c2\u6570\u6807\u9898", 
+                        false
+                    ]
+                }
+            ], 
+            "func_return": true, 
+            "func_rtv_name_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u8fd4\u56de\u754c\u9762\u6a21\u5757", 
+                        "UI_PREFAB_INSTANCE"
+                    ]
+                }
+            ], 
+            "group_id": "jNmCISmIEe6xRbAlqk2+nu", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1896460394, 
+            "trigger_name": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f", 
+            "valid": true
+        }, 
+        "1913237612": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_PREFAB_INSTANCE", 
+                                                "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u8868"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TABLE_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1913237612000001, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "FOR_INT_DO_ACTION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u5faa\u73af\u6574\u6570", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "TABLE", 
+                                                "\u5bf9\u8bdd\u6846\u8868", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "sub_type": "GET_TABLE_LENGTH"
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UI_PREFAB_INSTANCE", 
+                                                        "\u6309\u94ae\u6a21\u5757", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 1001558, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100011, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "TABLE", 
+                                                                "\u5bf9\u8bdd\u6846\u8868", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "\u5faa\u73af\u6574\u6570", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "GET_UI_PREFAB_INSTANCE_TABLE_VAR_1D"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1913237612000002, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "DEL_UI_PREFAB_INS", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 1001558, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UI_PREFAB_INSTANCE", 
+                                                        "\u6309\u94ae\u6a21\u5757", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1913237612000003, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1913237612000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CLEAR_TABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1913237612000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "DEL_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u8868"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1913237612000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "DEL_UI_PREFAB_INS", 
+                    "args_list": [
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1913237612000007, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_des": "\u5220\u9664\u5bf9\u8bdd\u6846\u9762\u677f{\u53c2\u6570\u5bf9\u8bdd\u6846}", 
+            "func_id": "493fbfb009d611ee9cce309c23206d62", 
+            "func_name": "\u5220\u9664\u5bf9\u8bdd\u6846\u9762\u677f", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                        true
+                    ]
+                }
+            ], 
+            "group_id": "jNmCISmIEe6xRbAlqk2+nu", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1913237612, 
+            "trigger_name": "\u5220\u9664\u5bf9\u8bdd\u6846\u9762\u677f", 
+            "valid": true
+        }, 
+        "1930014827": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_PREFAB_INSTANCE", 
+                                                "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u8868"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_TABLE_KV"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000001, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "\u73a9\u5bb6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "TABLE", 
+                                                "\u5bf9\u8bdd\u6846\u8868", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u5f52\u5c5e\u73a9\u5bb6"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_PLAYER_TABLE_VAR_1D"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000002, 
+                    "enable": true
+                }, 
+                [
+                    1111484832, 
+                    "\u5220\u9664\u5c3e\u56fe\u6a21\u5757", 
+                    1870299205, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u5c3e\u56fe\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "TABLE", 
+                                                "\u5bf9\u8bdd\u6846\u8868", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u5c3e\u56fe\u6a21\u5757"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UI_PREFAB_INSTANCE_TABLE_VAR_1D"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "DEL_UI_PREFAB_INS", 
+                    "args_list": [
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u5c3e\u56fe\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000004, 
+                    "enable": true
+                }, 
+                [
+                    1286782930, 
+                    "\u521b\u5efa\u6309\u94ae\u6a21\u5757", 
+                    1870299205, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u754c\u9762\u63a7\u4ef6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_PREFAB_INSTANCE", 
+                                                "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u5217\u8868"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u6309\u94ae\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER", 
+                                                "\u73a9\u5bb6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 1001556, 
+                                    "args_list": [
+                                        "3eb34794-4d5f-4044-b340-958271d6922d"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_COMP", 
+                                                "\u754c\u9762\u63a7\u4ef6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "sub_type": "CREATE_UI_PREFAB_INSTANCE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000006, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u6309\u94ae", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_PREFAB_INSTANCE", 
+                                                "\u6309\u94ae\u6a21\u5757", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6309\u94ae"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000007, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u6309\u94ae", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100072, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "\u53c2\u6570\u4e8b\u4ef6\u5b57\u7b26\u4e32", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000008, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u6309\u94ae\u6587\u672c", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_PREFAB_INSTANCE", 
+                                                "\u6309\u94ae\u6a21\u5757", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u6309\u94ae\u6587\u672c"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000009, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UI_COMP_TEXT", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "\u73a9\u5bb6", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_COMP", 
+                                        "\u6309\u94ae\u6587\u672c", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "STRING", 
+                                        "\u53c2\u6570\u6309\u94ae\u6587\u672c", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000010, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "INSERT_TABLE_VALUE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u6309\u94ae\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000011, 
+                    "enable": true, 
+                    "op_arg": [
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false
+                    ]
+                }, 
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u6309\u94ae\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u5bf9\u8bdd\u6846"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000012, 
+                    "enable": true
+                }, 
+                [
+                    1539952189, 
+                    "\u521b\u5efa\u5c3e\u56fe\u6a21\u5757", 
+                    1870299205, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u5c3e\u56fe\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER", 
+                                                "\u73a9\u5bb6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 1001556, 
+                                    "args_list": [
+                                        "c04aa949-3c51-4581-911a-d7fb33dddc7c"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100070, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "UI_COMP", 
+                                                "\u754c\u9762\u63a7\u4ef6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "sub_type": "CREATE_UI_PREFAB_INSTANCE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000013, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_TABLE_VALUE_1D", 
+                    "args_list": [
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5bf9\u8bdd\u6846\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u5c3e\u56fe\u6a21\u5757"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u5c3e\u56fe\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1930014827000014, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_des": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u6309\u94ae{\u53c2\u6570\u5bf9\u8bdd\u6846}\u4e8b\u4ef6{\u53c2\u6570\u4e8b\u4ef6\u5b57\u7b26\u4e32}\u6587\u672c{\u53c2\u6570\u6309\u94ae\u6587\u672c}", 
+            "func_id": "6ed239ae09d111ee9fc1309c23206d62", 
+            "func_name": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u6309\u94ae", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u53c2\u6570\u5bf9\u8bdd\u6846", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u53c2\u6570\u4e8b\u4ef6\u5b57\u7b26\u4e32", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u53c2\u6570\u6309\u94ae\u6587\u672c", 
+                        true
+                    ]
+                }
+            ], 
+            "group_id": "jNmCISmIEe6xRbAlqk2+nu", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1930014827, 
+            "trigger_name": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u6309\u94ae", 
+            "valid": true
+        }
+    }, 
+    "trigger_group_info": {
+        "_function_": true, 
+        "_trigger_group_": true, 
+        "group": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    1896460394, 
+                    "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1930014827, 
+                    "\u65b0\u5efa\u5bf9\u8bdd\u6846\u6309\u94ae"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1913237612, 
+                    "\u5220\u9664\u5bf9\u8bdd\u6846\u9762\u677f"
+                ]
+            }
+        ], 
+        "is_sub_folder": false, 
+        "key": "jNmCISmIEe6xRbAlqk2+nu", 
+        "name": "\u5bf9\u8bdd\u6846"
+    }
+}

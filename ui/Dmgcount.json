@@ -1,0 +1,2371 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "anchor": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.0
+                ]
+            }, 
+            "children": [
+                {
+                    "adapter_option": [
+                        false, 
+                        false, 
+                        false, 
+                        false, 
+                        220.71000000000004, 
+                        -520.71, 
+                        -777.8, 
+                        427.79999999999995
+                    ], 
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "bg_image": 120135, 
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            61, 
+                            164, 
+                            113
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                0.0, 
+                                362.0, 
+                                45.0, 
+                                -45.0
+                            ], 
+                            "alignment": {
+                                "__tuple__": true, 
+                                "items": [
+                                    2, 
+                                    8
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKWeiBeiW7", 
+                                    30
+                                ]
+                            }, 
+                            "name": "Title", 
+                            "opacity": 0.97, 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    225.0, 
+                                    381.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    62.5, 
+                                    95.25
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    360.0, 
+                                    38.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><span style=\"font-weight:600;color:#ffdaa1;\">\u4f24\u5bb3\u7edf\u8ba1</span></p></body></html>", 
+                                    true
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "aa468d12-f2ef-4edc-a5b5-6d9f7bd0a627"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "background", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            360.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            360.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            360.0, 
+                            400.0
+                        ]
+                    }, 
+                    "type": 10, 
+                    "uid": "4ec044e3-993f-4aec-9245-587359fff8ee"
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                20.0, 
+                                0.0, 
+                                60.0, 
+                                40.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.5
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKXinZongYiW7", 
+                                    16
+                                ]
+                            }, 
+                            "name": "Dmgtext0", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    60.0, 
+                                    10.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    15.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><br /></p></body></html>", 
+                                    false
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "f6093287-0f13-4cea-a38f-3189ed3e87ad"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134242172, 
+                            "name": "DmgbarP0", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "c6e361c8-94c8-44fa-bfb5-19c90a304a30"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "Dmgimage0", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    30.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    7.5, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "a0a2167e-e4d4-46d2-9a4a-6a7cfe8259c9"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134257559, 
+                            "name": "DmgbarR0", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "0b9621b5-0fe7-4e7e-b8cd-113190df2eed"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134228157, 
+                            "name": "DmgbarM0", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "a5961893-ac71-4893-8f3c-bb3e7f918b72"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dmg0", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            650.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            650.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            400.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "77dcd942-36cf-45ee-9320-94862b303887", 
+                    "visible": false
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                20.0, 
+                                0.0, 
+                                60.0, 
+                                40.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.5
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKXinZongYiW7", 
+                                    16
+                                ]
+                            }, 
+                            "name": "Dmgtext1", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    60.0, 
+                                    10.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    15.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><br /></p></body></html>", 
+                                    false
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "ea0f285c-9ef3-4fc3-b2ee-1bbc9bc3e957"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                0.0, 
+                                20.0, 
+                                50.0, 
+                                50.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "background_cap_insets": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0, 
+                                    0, 
+                                    300, 
+                                    20
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "cap_insets": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0, 
+                                    0, 
+                                    122, 
+                                    14
+                                ]
+                            }, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134257559, 
+                            "name": "DmgbarR1", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "1e5cf46d-8ae4-4a8f-9526-275e148b2ae1"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                0.0, 
+                                20.0, 
+                                50.0, 
+                                50.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134228157, 
+                            "name": "DmgbarM1", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "3d13c107-2129-435f-b87e-693147f55472"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                0.0, 
+                                20.0, 
+                                50.0, 
+                                50.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134242172, 
+                            "name": "DmgbarP1", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "0e50f47b-2798-4785-8f5a-9992196fd133"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "Dmgimage1", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    30.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    7.5, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "5b121dd4-589e-4e6c-82c6-08be6d6170aa"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dmg1", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            600.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            600.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            400.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "76c7dc0d-9b92-4732-92d8-c47946e8c8df", 
+                    "visible": false
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                20.0, 
+                                0.0, 
+                                60.0, 
+                                40.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.5
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKXinZongYiW7", 
+                                    16
+                                ]
+                            }, 
+                            "name": "Dmgtext2", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    60.0, 
+                                    10.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    15.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><br /></p></body></html>", 
+                                    false
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "9fc13cdb-ff2b-4307-b94e-152333becea0"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134242172, 
+                            "name": "DmgbarP2", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "e6c99850-df24-4c25-848e-d2a6f658d3e4"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "Dmgimage2", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    30.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    7.5, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "e310c8a3-8b8c-4779-9884-c4b4349b5808"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134257559, 
+                            "name": "DmgbarR2", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "3db8083d-951b-4361-b043-121d98b01593"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134228157, 
+                            "name": "DmgbarM2", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "6a18cb33-8bb4-4950-bc5a-eae87e437307"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dmg2", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            550.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            550.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            400.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "9db1ff75-fbe5-4146-b201-f6c5aa5f4121", 
+                    "visible": false
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                20.0, 
+                                0.0, 
+                                60.0, 
+                                40.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.5
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKXinZongYiW7", 
+                                    16
+                                ]
+                            }, 
+                            "name": "Dmgtext3", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    60.0, 
+                                    10.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    15.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><br /></p></body></html>", 
+                                    false
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "9474b4b3-03b0-4d30-a800-d91344fad15f"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134242172, 
+                            "name": "DmgbarP3", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "fdec9012-7dd9-4373-8261-9f4b3e70c2b6"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "Dmgimage3", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    30.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    7.5, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "3e84b1bc-d3d8-428d-b0ac-d35fcc14e3cd"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134257559, 
+                            "name": "DmgbarR3", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "234b312e-3327-4bf7-9221-234c48520cb4"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134228157, 
+                            "name": "DmgbarM3", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "65e9e721-a9a8-4799-835a-64607d18fce4"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dmg3", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            500.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            500.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            400.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "2f4b765c-d4aa-4b43-9bd0-b7176c1505bd", 
+                    "visible": false
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                20.0, 
+                                0.0, 
+                                60.0, 
+                                40.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.5
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKXinZongYiW7", 
+                                    16
+                                ]
+                            }, 
+                            "name": "Dmgtext4", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    60.0, 
+                                    10.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    15.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><br /></p></body></html>", 
+                                    false
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "2f8f1c85-f55b-43e5-83a8-93f873fb168a"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134242172, 
+                            "name": "DmgbarP4", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "6ca64445-fc2b-4023-89a9-83f4af763f53"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "Dmgimage4", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    30.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    7.5, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "bc2f7681-65a4-4828-a339-4067ce931ae8"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134257559, 
+                            "name": "DmgbarR4", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "93f70005-5000-4675-9e78-e526aa741e88"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134228157, 
+                            "name": "DmgbarM4", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "b718602a-7679-4c55-b2d4-99a13d378546"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dmg4", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            450.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            450.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            400.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "07a6ae44-c72d-40b7-8d6e-cf663f5a8c51", 
+                    "visible": false
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                20.0, 
+                                0.0, 
+                                60.0, 
+                                40.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.5
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "HKXinZongYiW7", 
+                                    16
+                                ]
+                            }, 
+                            "name": "Dmgtext5", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    60.0, 
+                                    10.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    15.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><br /></p></body></html>", 
+                                    false
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "aa47d1b5-d838-4a8c-81c7-36f757938a61"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134242172, 
+                            "name": "DmgbarP5", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "2986ead6-98d7-493b-a1a5-a64ab56300ec"
+                        }, 
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "Dmgimage5", 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    30.0, 
+                                    20.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    7.5, 
+                                    50.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    40.0, 
+                                    40.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "f3593958-14f2-4737-926c-8d90d8a538e8"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134257559, 
+                            "name": "DmgbarR5", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "2349ffd9-b4a5-44a5-bb08-86fdaa4fa597"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                false, 
+                                false, 
+                                3.0, 
+                                25.0, 
+                                52.5, 
+                                47.5
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "bg_image": 134255042, 
+                            "children": [], 
+                            "current_value": 100.0, 
+                            "event_list": [], 
+                            "image": 134228157, 
+                            "name": "DmgbarM5", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    52.5, 
+                                    25.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    13.125, 
+                                    62.5
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    300.0, 
+                                    12.0
+                                ]
+                            }, 
+                            "type": 5, 
+                            "uid": "5f9611c7-d15c-490a-baa1-7098011a0831"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dmg5", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            400.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            400.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            400.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "73f84c07-46dd-4183-a8ab-5bc2eb770eb0", 
+                    "visible": false
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                true, 
+                                true, 
+                                true, 
+                                true, 
+                                0.0, 
+                                0.0, 
+                                0.0, 
+                                0.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [], 
+                                    "enabled": true, 
+                                    "name": "%off_click", 
+                                    "sound_id": null, 
+                                    "type": 2
+                                }
+                            ], 
+                            "image": 133936, 
+                            "name": "%off", 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "3115c069-e25c-4aa7-986f-35c747da3720"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                true, 
+                                true, 
+                                false, 
+                                -5.0, 
+                                0.0, 
+                                25.0, 
+                                -95.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "MSYH", 
+                                    18
+                                ]
+                            }, 
+                            "name": "is%text", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    95.0, 
+                                    30.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><span style=\"color:#ffdaa1;\">\u767e\u5206\u6bd4\u663e\u793a</span></p></body></html>", 
+                                    true
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "5b17db19-bb58-41fa-9e7e-2887b37b4d32"
+                        }, 
+                        {
+                            "adapter_option": [
+                                true, 
+                                true, 
+                                true, 
+                                true, 
+                                0.0, 
+                                0.0, 
+                                0.0, 
+                                0.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [], 
+                                    "enabled": true, 
+                                    "name": "%on_click", 
+                                    "sound_id": null, 
+                                    "type": 2
+                                }
+                            ], 
+                            "image": 133938, 
+                            "name": "%on", 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "5c65a5e8-b338-4690-a2be-3695d750b030", 
+                            "visible": false
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "%button", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            700.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            700.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            25.0, 
+                            25.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "9819e573-692c-4269-91e0-daa7b8c00612"
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                true, 
+                                true, 
+                                true, 
+                                true, 
+                                0.0, 
+                                0.0, 
+                                0.0, 
+                                0.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [], 
+                                    "enabled": true, 
+                                    "name": "dpsoff_click", 
+                                    "sound_id": null, 
+                                    "type": 2
+                                }
+                            ], 
+                            "image": 133936, 
+                            "name": "dps_off", 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "ff72b47e-5c37-4bf1-b07f-0801078b9611"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                true, 
+                                true, 
+                                false, 
+                                -5.0, 
+                                0.0, 
+                                25.0, 
+                                -115.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "MSYH", 
+                                    18
+                                ]
+                            }, 
+                            "name": "isdpstext", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    115.0, 
+                                    30.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><span style=\"color:#ffdaa1;\">\u79d2\u4f24\u663e\u793a</span></p></body></html>", 
+                                    true
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "48571682-176f-4d13-ba82-e4696725f322"
+                        }, 
+                        {
+                            "adapter_option": [
+                                true, 
+                                true, 
+                                true, 
+                                true, 
+                                0.0, 
+                                0.0, 
+                                0.0, 
+                                0.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [], 
+                                    "enabled": true, 
+                                    "name": "dpson_click", 
+                                    "sound_id": null, 
+                                    "type": 2
+                                }
+                            ], 
+                            "image": 133938, 
+                            "name": "dps_on", 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "075af221-4c4c-417a-a5cf-ad7abac817e8", 
+                            "visible": false
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "dpsbutton", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            130.0, 
+                            700.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            130.0, 
+                            700.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            25.0, 
+                            25.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "252f9c8f-0954-4b37-82fb-e493c58232d9"
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "adapter_option": [
+                                true, 
+                                true, 
+                                true, 
+                                true, 
+                                0.0, 
+                                0.0, 
+                                0.0, 
+                                0.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [], 
+                                    "enabled": true, 
+                                    "name": "teamoff_click", 
+                                    "sound_id": null, 
+                                    "type": 2
+                                }
+                            ], 
+                            "image": 133936, 
+                            "name": "team_off", 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "f2189fd6-4c3d-4cc1-b0e0-ea0138be680e"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                true, 
+                                true, 
+                                false, 
+                                -5.0, 
+                                0.0, 
+                                25.0, 
+                                -115.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [], 
+                            "font": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "MSYH", 
+                                    18
+                                ]
+                            }, 
+                            "name": "isteamtext", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    100.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    115.0, 
+                                    30.0
+                                ]
+                            }, 
+                            "text": {
+                                "__tuple__": true, 
+                                "items": [
+                                    "<html><body><p><span style=\"color:#ffdaa1;\">\u56e2\u961f\u663e\u793a</span></p></body></html>", 
+                                    true
+                                ]
+                            }, 
+                            "type": 26, 
+                            "uid": "8d28c246-3c06-48ba-ad63-3b165960d50a"
+                        }, 
+                        {
+                            "adapter_option": [
+                                true, 
+                                true, 
+                                true, 
+                                true, 
+                                0.0, 
+                                0.0, 
+                                0.0, 
+                                0.0
+                            ], 
+                            "anchor": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "children": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [], 
+                                    "enabled": true, 
+                                    "name": "teamon_click", 
+                                    "sound_id": null, 
+                                    "type": 2
+                                }
+                            ], 
+                            "image": 133938, 
+                            "name": "team_on", 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    0.0, 
+                                    0.0
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    25.0, 
+                                    25.0
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "73df989f-4eb6-4f15-8447-fbe1eedfbc81", 
+                            "visible": false
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "teambutton", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            250.0, 
+                            700.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            250.0, 
+                            700.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            25.0, 
+                            25.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "0df15db5-59d3-466e-9ac2-07a60562aeb1"
+                }
+            ], 
+            "event_list": [], 
+            "name": "DmgUI", 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.0
+                ]
+            }, 
+            "type": 7, 
+            "uid": "466d7082-4105-4cc8-a474-0cf60f823bfe"
+        }
+    ], 
+    "name": "Dmgcount", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "747daefe-75e4-4d0d-8962-5a9803fbe03e", 
+    "visible": true, 
+    "zorder": 400
+}

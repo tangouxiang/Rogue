@@ -1,0 +1,51 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "DmgType"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "dmgcountlist1"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "dmgcountlist2"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   6, 
+   "dmgcountlist3"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   7, 
+   "dmgcountlist4"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   8, 
+   "Dmgcmp"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "dmgcountlist"
+  ]
+ }
+]

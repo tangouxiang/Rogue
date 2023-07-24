@@ -1,0 +1,360 @@
+{
+ "editor_unit": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {
+   "1": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     0
+    ]
+   }
+  }
+ }, 
+ "editor_decoration": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "ability_all": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {
+   "101": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     0
+    ]
+   }, 
+   "2": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     1
+    ]
+   }, 
+   "134221490": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     2
+    ]
+   }, 
+   "134283169": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     3
+    ]
+   }
+  }
+ }, 
+ "modifier_all": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {
+   "1": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     0
+    ]
+   }
+  }
+ }, 
+ "projectile_all": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {
+   "134249479": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     0
+    ]
+   }, 
+   "134234250": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     1
+    ]
+   }, 
+   "134271575": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     2
+    ]
+   }, 
+   "134226973": {
+    "__tuple__": true, 
+    "items": [
+     2147483647, 
+     3
+    ]
+   }
+  }
+ }, 
+ "technology_all": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "store_all": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_item": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_destructible": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "sound_all": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_deco_group": {
+  "f": [], 
+  "d": {}
+ }, 
+ "editor_model": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_icon": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_sound": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_effect": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_cur": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_sky_box": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_font": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_terrain_texture": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "editor_sequence": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }, 
+ "res_sequence": {
+  "f": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "", 
+     0, 
+     2147483647, 
+     "code_explorer_custom_root_folder_name"
+    ]
+   }
+  ], 
+  "d": {}
+ }
+}

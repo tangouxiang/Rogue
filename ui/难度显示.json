@@ -1,0 +1,96 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                0.8599996566772461, 
+                1052.8599996566772, 
+                823.5699996948242, 
+                1033.5699996948242
+            ], 
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    10, 
+                    10, 
+                    86, 
+                    30
+                ]
+            }, 
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "\u6587\u672c", 
+                    "open_adapter": true, 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            31.43000030517578, 
+                            13.140000343322754
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            62.86000061035156, 
+                            26.280000686645508
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "fbfdd773-9e9f-4a96-9ecc-7d8e468ad313"
+                }
+            ], 
+            "event_list": [], 
+            "image": 131920, 
+            "is_scale9_enable": true, 
+            "name": "\u96be\u5ea6\u663e\u793a\u80cc\u666f", 
+            "open_adapter": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    855.0, 
+                    1066.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    44.53125, 
+                    98.70370370370371
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    62.86000061035156, 
+                    26.280000686645508
+                ]
+            }, 
+            "type": 4, 
+            "uid": "3f71cda3-355d-42e8-8d4b-e425fb3bcf96", 
+            "visible": false
+        }
+    ], 
+    "name": "\u96be\u5ea6\u663e\u793a", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "9fbf9048-6f22-4276-be4f-4715738b4ef4", 
+    "visible": false, 
+    "zorder": 400
+}
