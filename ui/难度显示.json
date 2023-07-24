@@ -52,7 +52,8 @@
                         ]
                     }, 
                     "type": 3, 
-                    "uid": "fbfdd773-9e9f-4a96-9ecc-7d8e468ad313"
+                    "uid": "fbfdd773-9e9f-4a96-9ecc-7d8e468ad313", 
+                    "visible": false
                 }
             ], 
             "event_list": [], 
@@ -91,6 +92,6 @@
     "type": 2, 
     "ui_anims": [], 
     "uid": "9fbf9048-6f22-4276-be4f-4715738b4ef4", 
-    "visible": false, 
+    "visible": true, 
     "zorder": 400
 }

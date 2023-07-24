@@ -3,7 +3,161 @@
     "trigger_group_info": {
         "_function_": true, 
         "_trigger_group_": true, 
-        "group": [], 
+        "group": [
+            {
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            608813144, 
+                            "\u5355\u4f4d\u6c60 - \u521b\u5efa\u5355\u4f4d\u6c60 [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            239714393, 
+                            "\u5355\u4f4d\u6c60 - \u6e05\u7a7a\u5355\u4f4d\u6c60 [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            424263770, 
+                            "\u5355\u4f4d\u6c60 - \u6dfb\u52a0\u5355\u4f4d\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1481228379, 
+                            "\u5355\u4f4d\u6c60 - \u62bd\u53d6\u5355\u4f4d\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1548337244, 
+                            "\u5355\u4f4d\u6c60 - \u83b7\u53d6\u7b2cN\u4f4d\u5355\u4f4d\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1699332189, 
+                            "\u5355\u4f4d\u6c60 - \u83b7\u53d6\u5355\u4f4d\u6c60\u603b\u91cf [P]"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "Z3BYgCmBEe6QaLAlqk2+nv", 
+                "name": "\u968f\u673a\u5355\u4f4d\u6c60"
+            }, 
+            {
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1179238494, 
+                            "\u7269\u54c1\u6c60 - \u521b\u5efa\u7269\u54c1\u6c60 [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            524927071, 
+                            "\u7269\u54c1\u6c60 - \u6e05\u7a7a\u7269\u54c1\u6c60 [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            743030880, 
+                            "\u7269\u54c1\u6c60 - \u6dfb\u52a0\u7269\u54c1\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1279901793, 
+                            "\u7269\u54c1\u6c60 - \u62bd\u53d6\u7269\u54c1\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1464451170, 
+                            "\u7269\u54c1\u6c60 - \u83b7\u53d6\u7b2cN\u4f4d\u7269\u54c1\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1447673955, 
+                            "\u7269\u54c1\u6c60 - \u83b7\u53d6\u7269\u54c1\u6c60\u603b\u91cf [P]"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "Z3GRASmBEe62y7Alqk2+nk", 
+                "name": "\u968f\u673a\u7269\u54c1\u6c60"
+            }, 
+            {
+                "_function_": true, 
+                "_trigger_group_": true, 
+                "group": [
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1950990436, 
+                            "\u6280\u80fd\u6c60 - \u521b\u5efa\u6280\u80fd\u6c60 [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            38387813, 
+                            "\u6280\u80fd\u6c60 - \u6e05\u7a7a\u6280\u80fd\u6c60 [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            222937190, 
+                            "\u6280\u80fd\u6c60 - \u6dfb\u52a0\u6280\u80fd\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1498005607, 
+                            "\u6280\u80fd\u6c60 - \u62bd\u53d6\u6280\u80fd\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            340377704, 
+                            "\u6280\u80fd\u6c60 - \u83b7\u53d6\u7b2cN\u4f4d\u6280\u80fd\u7c7b\u578b [P]"
+                        ]
+                    }, 
+                    {
+                        "__tuple__": true, 
+                        "items": [
+                            1934213225, 
+                            "\u6280\u80fd\u6c60 - \u83b7\u53d6\u6280\u80fd\u6c60\u603b\u91cf [P]"
+                        ]
+                    }
+                ], 
+                "is_sub_folder": true, 
+                "key": "Z3ItQCmBEe6ogbAlqk2+ni", 
+                "name": "\u968f\u673a\u6280\u80fd\u6c60"
+            }
+        ], 
         "is_sub_folder": false, 
         "key": "Z3GRACmBEe6qybAlqk2+ns", 
         "name": "\u968f\u673a\u6c60"

@@ -1,0 +1,526 @@
+<Root>
+	<matrixlayout>column major</matrixlayout>
+	<system>character</system>
+	<mainroot>Root</mainroot>
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1 0 0</row0>
+			<row1>0 1 0</row1>
+			<row2>0 0 1</row2>
+			<row3>0 0 0</row3>
+		</transform>
+		<node>
+			<identifier>Root</identifier>
+			<transform>
+				<row0>1 0 0</row0>
+				<row1>0 1 0</row1>
+				<row2>0 0 1</row2>
+				<row3>0 0 0</row3>
+			</transform>
+			<node>
+				<identifier>1234</identifier>
+				<transform>
+					<row0>-0.72 0 0</row0>
+					<row1>0 0.72 0</row1>
+					<row2>0 0 -0.72</row2>
+					<row3>0 0 0</row3>
+				</transform>
+				<node>
+					<identifier>Bone Root</identifier>
+					<transform>
+						<row0>1 0 0</row0>
+						<row1>0 1 0</row1>
+						<row2>0 0 1</row2>
+						<row3>0 3.1242 0</row3>
+					</transform>
+					<node>
+						<identifier>Bone Lower Chest</identifier>
+						<transform>
+							<row0>1 0 0</row0>
+							<row1>0 1 0</row1>
+							<row2>0 0 1</row2>
+							<row3>0 0.35532 0</row3>
+						</transform>
+						<node>
+							<identifier>Bone Chest</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>0 0.266457 -0.0508</row3>
+							</transform>
+							<node>
+								<identifier>Bone_Arm1 R</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>0.299967 0.40502 0.1397</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Arm2 R</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>0.760597 -0.031589 -0.0127</row3>
+									</transform>
+									<node>
+										<identifier>Bone_Hand R</identifier>
+										<transform>
+											<row0>1 0 0</row0>
+											<row1>0 1 0</row1>
+											<row2>0 0 1</row2>
+											<row3>0.752993 -0.012502 0</row3>
+										</transform>
+										<node>
+											<identifier>Javelin</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>-1.813557 -1.058906 -1.7018</row3>
+											</transform>
+											<node>
+												<identifier>Spear Head</identifier>
+												<transform>
+													<row0>1 0 0</row0>
+													<row1>0 1 0</row1>
+													<row2>0 0 1</row2>
+													<row3>-4.522877 -0.000001 -0.018481</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>Bone_Fingers R</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>0.116843 -0.068307 0</row3>
+											</transform>
+											<node>
+												<identifier>Bone_Fingers2 R</identifier>
+												<transform>
+													<row0>1 0 0</row0>
+													<row1>0 1 0</row1>
+													<row2>0 0 1</row2>
+													<row3>0.127 0 0</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>Bone_Thumb R</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>0.020021 -0.135541 -0.0762</row3>
+											</transform>
+										</node>
+									</node>
+								</node>
+							</node>
+							<node>
+								<identifier>Bone_Arm1 L</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>-0.380907 0.398828 0.1397</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Arm2 L</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>-0.72614 -0.006677 -0.0127</row3>
+									</transform>
+									<node>
+										<identifier>Bone_Hand L</identifier>
+										<transform>
+											<row0>1 0 0</row0>
+											<row1>0 1 0</row1>
+											<row2>0 0 1</row2>
+											<row3>-0.71905 0.004871 -0.070243</row3>
+										</transform>
+										<node>
+											<identifier>Shield</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>-0.459904 -2.111 -1.161657</row3>
+											</transform>
+											<node>
+												<identifier>Shield Bar</identifier>
+												<transform>
+													<row0>1 0 0</row0>
+													<row1>0 1 0</row1>
+													<row2>0 0 1</row2>
+													<row3>0 0.2794 0.0254</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>Bone_Fingers L</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>-0.037669 -0.101885 0.070243</row3>
+											</transform>
+											<node>
+												<identifier>Bone_Fingers2 L</identifier>
+												<transform>
+													<row0>1 0 0</row0>
+													<row1>0 1 0</row1>
+													<row2>0 0 1</row2>
+													<row3>-0.112783 -0.004369 0</row3>
+												</transform>
+											</node>
+										</node>
+										<node>
+											<identifier>Bone_Thumb L</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>0.064632 -0.189592 -0.005957</row3>
+											</transform>
+										</node>
+									</node>
+								</node>
+							</node>
+							<node>
+								<identifier>Bone Head</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>0.005518 0.695288 0.059617</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Hair1</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>-0.005518 0.196367 0.32104</row3>
+									</transform>
+									<node>
+										<identifier>Bone_Hair2</identifier>
+										<transform>
+											<row0>1 0 0</row0>
+											<row1>0 1 0</row1>
+											<row2>0 0 1</row2>
+											<row3>0 -0.522216 0.313143</row3>
+										</transform>
+										<node>
+											<identifier>Bone_Hair3</identifier>
+											<transform>
+												<row0>1 0 0</row0>
+												<row1>0 1 0</row1>
+												<row2>0 0 1</row2>
+												<row3>0 -0.644179 0.396359</row3>
+											</transform>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+					<node>
+						<identifier>Bone Pelvis</identifier>
+						<transform>
+							<row0>1 0 0</row0>
+							<row1>0 1 0</row1>
+							<row2>0 0 1</row2>
+							<row3>0 -0.0762 0</row3>
+						</transform>
+						<node>
+							<identifier>Bone_Leg1 L</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>-0.219282 -0.255796 0</row3>
+							</transform>
+							<node>
+								<identifier>Bone_Leg2 L</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>-0.031956 -1.145149 0.115698</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Foot L</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>-0.046594 -1.193928 0.095483</row3>
+									</transform>
+									<node>
+										<identifier>Bone_Toe L</identifier>
+										<transform>
+											<row0>1 0 0</row0>
+											<row1>0 1 0</row1>
+											<row2>0 0 1</row2>
+											<row3>0.013195 -0.318449 -0.225075</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>Bone_Leg1 R</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>0.241655 -0.249407 0</row3>
+							</transform>
+							<node>
+								<identifier>Bone_Leg2 R</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>0.039926 -1.158105 0.125339</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Foot R</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>0.034924 -1.18935 0.085841</row3>
+									</transform>
+									<node>
+										<identifier>Bone_Toe R</identifier>
+										<transform>
+											<row0>1 0 0</row0>
+											<row1>0 1 0</row1>
+											<row2>0 0 1</row2>
+											<row3>-0.008315 -0.321261 -0.225075</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>Bone_Flap B</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>0 0.0254 0.254</row3>
+							</transform>
+							<node>
+								<identifier>Bone_Flap B2</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>0 -0.616252 0.063884</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Flap B3</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>0 -0.648622 0.073652</row3>
+									</transform>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>Bone_Flap R</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>0.435305 0.140487 0</row3>
+							</transform>
+							<node>
+								<identifier>Bone_Flap R2</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>0.251026 -0.414706 -0.1524</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Flap R3</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>0.236217 -0.786882 0.1524</row3>
+									</transform>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>Bone_Flap L</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>-0.499067 0.100634 0</row3>
+							</transform>
+							<node>
+								<identifier>Bone_Flap L2</identifier>
+								<transform>
+									<row0>1 0 0</row0>
+									<row1>0 1 0</row1>
+									<row2>0 0 1</row2>
+									<row3>-0.386517 -0.566141 -0.1524</row3>
+								</transform>
+								<node>
+									<identifier>Bone_Flap L3</identifier>
+									<transform>
+										<row0>1 0 0</row0>
+										<row1>0 1 0</row1>
+										<row2>0 0 1</row2>
+										<row3>-0.15652 -0.571157 0.1524</row3>
+									</transform>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>Bone_Flap F</identifier>
+							<transform>
+								<row0>1 0 0</row0>
+								<row1>0 1 0</row1>
+								<row2>0 0 1</row2>
+								<row3>0 0.022936 -0.251523</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+	<anim>
+		<name>Attack Cinematic</name>
+		<res>/Attack Cinematic.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171623</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack Alternate</name>
+		<res>/Attack Alternate.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171617</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack -3</name>
+		<res>/Attack -3.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171611</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack -2</name>
+		<res>/Attack -2.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171597</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack -1</name>
+		<res>/Attack -1.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171583</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack Slam</name>
+		<res>/Attack Slam.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171642</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack Spell</name>
+		<res>/Attack Spell.anim</res>
+		<durationMS>1234</durationMS>
+		<_ModifyTime>1690171652</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Attack Two</name>
+		<res>/Attack Two.anim</res>
+		<durationMS>1134</durationMS>
+		<_ModifyTime>1690171662</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Default</name>
+		<res>/Default.anim</res>
+		<durationMS>301</durationMS>
+		<_ModifyTime>1690171672</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Spell Throw</name>
+		<res>/Spell Throw.anim</res>
+		<durationMS>1234</durationMS>
+		<_ModifyTime>1690171683</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Spell Two</name>
+		<res>/Spell Two.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171691</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Spell</name>
+		<res>/Spell.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171699</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>Stand Channel</name>
+		<res>/Stand Channel.anim</res>
+		<durationMS>701</durationMS>
+		<_ModifyTime>1690171711</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>die</name>
+		<res>/die.anim</res>
+		<durationMS>1001</durationMS>
+		<_ModifyTime>1690171565</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>idle1</name>
+		<res>/idle1.anim</res>
+		<durationMS>1501</durationMS>
+		<_ModifyTime>1690171560</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<anim>
+		<name>walk</name>
+		<res>/walk.anim</res>
+		<durationMS>801</durationMS>
+		<_ModifyTime>1690171569</_ModifyTime>
+		<enableSoftBone>false</enableSoftBone>
+	</anim>
+	<StaticBoundingBox>
+		<min>-1.481328 0 -0.748338</min>
+		<max>3.256471 3.339095 1.183739</max>
+	</StaticBoundingBox>
+</Root>

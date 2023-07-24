@@ -121,6 +121,741 @@
         "trigger_name": "on_hero_delete", 
         "valid": true
     }, 
+    "128528502": {
+        "action": [
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color1", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "skill1", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "name"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 144707700000010, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color2", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "skill1", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "description"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 564559989000044, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u82f1\u96c4\u9009\u62e9skill1"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 128528502000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 596058228, 
+        "trigger_id": 128528502, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_7", 
+        "valid": true
+    }, 
+    "144707700": {
+        "action": [
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "uihero", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color1", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100116, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "UNIT_NAME", 
+                                                    "hero", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }
+                                ], 
+                                "sub_type": "GET_UNIT_NAME_BY_TYPE"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 144707700000010, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color2", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100116, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "UNIT_NAME", 
+                                                    "hero", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }
+                                ], 
+                                "sub_type": "GET_DES_ID_BY_UNIT_TYPE"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 144707700000058, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u82f1\u96c4\u9009\u62e9head"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 144707700000002, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 596058228, 
+        "trigger_id": 144707700, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_4", 
+        "valid": true
+    }, 
+    "167018612": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "INTEGER", 
+                                "\u96be\u5ea6"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            2
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 167018612000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [], 
+                "element_id": 167018612000003, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SEND_CUSTOM_EVENT", 
+                "args_list": [
+                    {
+                        "arg_type": 100238, 
+                        "args_list": [
+                            1852994423
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 167018612000004, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea62"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 167018612000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 1327870035, 
+        "trigger_id": 167018612, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_10", 
+        "valid": true
+    }, 
+    "202350706": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "INTEGER", 
+                                "\u96be\u5ea6"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            5
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 202350706000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "\u754c\u9762\u6a21\u5757", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [], 
+                "element_id": 202350706000003, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SEND_CUSTOM_EVENT", 
+                "args_list": [
+                    {
+                        "arg_type": 100238, 
+                        "args_list": [
+                            1852994423
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 202350706000004, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea65"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 202350706000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 1327870035, 
+        "trigger_id": 202350706, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_3", 
+        "valid": true
+    }, 
     "246558733": {
         "action": [
             {
@@ -413,115 +1148,6 @@
         "trigger_name": "\u7269\u54c1\u53d8\u52a8", 
         "valid": true
     }, 
-    "252293232": {
-        "action": [
-            {
-                "action_type": "SET_VARIABLE", 
-                "args_list": [
-                    {
-                        "arg_type": 100030, 
-                        "args_list": [
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    "INTEGER", 
-                                    "\u96be\u5ea6"
-                                ]
-                            }
-                        ], 
-                        "sub_type": 1
-                    }, 
-                    {
-                        "arg_type": 100002, 
-                        "args_list": [
-                            3
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 252293232000002, 
-                "enable": true
-            }, 
-            {
-                "action_type": "CALL_TRIGGER_FUNC", 
-                "args_list": [
-                    {
-                        "arg_type": 100177, 
-                        "args_list": [
-                            {
-                                "arg_type": 1001558, 
-                                "args_list": [
-                                    {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "UI_PREFAB_INSTANCE", 
-                                            "\u754c\u9762\u6a21\u5757", 
-                                            "local"
-                                        ]
-                                    }
-                                ], 
-                                "sub_type": "VARIABLE"
-                            }
-                        ], 
-                        "op_arg": [], 
-                        "op_arg_enable": [], 
-                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
-                    }
-                ], 
-                "bp": false, 
-                "call_rt_arg_idxes": [], 
-                "element_id": 252293232000003, 
-                "enable": true
-            }, 
-            {
-                "action_type": "SEND_CUSTOM_EVENT", 
-                "args_list": [
-                    {
-                        "arg_type": 100238, 
-                        "args_list": [
-                            1852994423
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 252293232000004, 
-                "enable": true
-            }
-        ], 
-        "call_enabled": true, 
-        "condition": [], 
-        "enabled": false, 
-        "event": [
-            {
-                "args_list": [
-                    {
-                        "arg_type": 100067, 
-                        "args_list": [
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea63"
-                                ], 
-                                "sub_type": 1
-                            }
-                        ], 
-                        "sub_type": "STR_TO_UI_EVENT"
-                    }
-                ], 
-                "element_id": 252293232000001, 
-                "enable": true, 
-                "event_type": "TRIGGER_COMPONENT_EVENT"
-            }
-        ], 
-        "group_id": 0, 
-        "is_conf": true, 
-        "p_trigger_id": 1879683181, 
-        "trigger_id": 252293232, 
-        "trigger_name": "\u5b50\u89e6\u53d1\u5668_5", 
-        "valid": true
-    }, 
     "313667627": {
         "action": [
             {
@@ -758,80 +1384,238 @@
         "trigger_name": "Select Unit Group", 
         "valid": true
     }, 
-    "352956527": {
+    "329908343": {
         "action": [
             {
-                "action_type": "SET_VARIABLE", 
+                "action_type": "SET_UI_COMP_TEXT", 
                 "args_list": [
                     {
-                        "arg_type": 100030, 
+                        "arg_type": 100025, 
                         "args_list": [
                             {
-                                "__tuple__": true, 
-                                "items": [
-                                    "INTEGER", 
-                                    "\u96be\u5ea6"
-                                ]
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
                             }
                         ], 
-                        "sub_type": 1
+                        "sub_type": "GET_ROLE_BY_INT"
                     }, 
                     {
-                        "arg_type": 100002, 
-                        "args_list": [
-                            2
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 352956527000002, 
-                "enable": true
-            }, 
-            {
-                "action_type": "CALL_TRIGGER_FUNC", 
-                "args_list": [
-                    {
-                        "arg_type": 100177, 
+                        "arg_type": 100070, 
                         "args_list": [
                             {
                                 "arg_type": 1001558, 
                                 "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
                                     {
                                         "__tuple__": true, 
                                         "items": [
-                                            "UI_PREFAB_INSTANCE", 
-                                            "\u754c\u9762\u6a21\u5757", 
+                                            "STRING", 
+                                            "color1", 
                                             "local"
                                         ]
                                     }
                                 ], 
-                                "sub_type": "VARIABLE"
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "skill2", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "name"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
                             }
                         ], 
-                        "op_arg": [], 
-                        "op_arg_enable": [], 
-                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
                     }
                 ], 
                 "bp": false, 
-                "call_rt_arg_idxes": [], 
-                "element_id": 352956527000003, 
+                "element_id": 144707700000010, 
                 "enable": true
             }, 
             {
-                "action_type": "SEND_CUSTOM_EVENT", 
+                "action_type": "SET_UI_COMP_TEXT", 
                 "args_list": [
                     {
-                        "arg_type": 100238, 
+                        "arg_type": 100025, 
                         "args_list": [
-                            1852994423
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
                         ], 
-                        "sub_type": 1
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color2", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "skill2", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "description"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
                     }
                 ], 
                 "bp": false, 
-                "element_id": 352956527000004, 
+                "element_id": 564559989000044, 
                 "enable": true
             }
         ], 
@@ -847,7 +1631,7 @@
                             {
                                 "arg_type": 100003, 
                                 "args_list": [
-                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea62"
+                                    "\u82f1\u96c4\u9009\u62e9skill2"
                                 ], 
                                 "sub_type": 1
                             }
@@ -855,16 +1639,16 @@
                         "sub_type": "STR_TO_UI_EVENT"
                     }
                 ], 
-                "element_id": 352956527000001, 
+                "element_id": 329908343000001, 
                 "enable": true, 
                 "event_type": "TRIGGER_COMPONENT_EVENT"
             }
         ], 
         "group_id": 0, 
         "is_conf": true, 
-        "p_trigger_id": 1879683181, 
-        "trigger_id": 352956527, 
-        "trigger_name": "\u5b50\u89e6\u53d1\u5668_4", 
+        "p_trigger_id": 596058228, 
+        "trigger_id": 329908343, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_13", 
         "valid": true
     }, 
     "380776485": {
@@ -2705,6 +3489,1820 @@
         "trigger_name": "change main unit by hotkey", 
         "valid": true
     }, 
+    "552894582": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "INTEGER", 
+                                "\u96be\u5ea6"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            4
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 552894582000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [], 
+                "element_id": 552894582000003, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SEND_CUSTOM_EVENT", 
+                "args_list": [
+                    {
+                        "arg_type": 100238, 
+                        "args_list": [
+                            1852994423
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 552894582000004, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea64"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 552894582000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 1327870035, 
+        "trigger_id": 552894582, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_12", 
+        "valid": true
+    }, 
+    "564559989": {
+        "action": [
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color1", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "common", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "name"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 144707700000010, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "color2", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            [
+                                                "ABILITY_NAME", 
+                                                "common", 
+                                                "local"
+                                            ]
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "description"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 564559989000044, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u82f1\u96c4\u9009\u62e9common"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 564559989000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 596058228, 
+        "trigger_id": 564559989, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_5", 
+        "valid": true
+    }, 
+    "596058228": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "color1", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#fdc958"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000325, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "color2", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#fdc958"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000332, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_PREFAB_INSTANCE", 
+                                "uihero", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 1001558, 
+                        "args_list": [
+                            {
+                                "arg_type": 100025, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 6
+                                    }
+                                ], 
+                                "sub_type": "GET_ROLE_BY_INT"
+                            }, 
+                            {
+                                "arg_type": 1001556, 
+                                "args_list": [
+                                    "c5e3ef96-9e44-44f3-9ec5-a7322164603e"
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100070, 
+                                "args_list": [
+                                    "b4ffca11-1fd0-4c7b-b271-6126afb5d68d"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "CREATE_UI_PREFAB_INSTANCE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000013, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uihead", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "head"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000027, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskill1", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skill1"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000038, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskill2", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skill2"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000049, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uicommon", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "common"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000061, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskilltitle", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000072, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskilltext", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000083, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 100025, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 6
+                                    }
+                                ], 
+                                "sub_type": "GET_ROLE_BY_INT"
+                            }, 
+                            {
+                                "arg_type": 100070, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UI_COMP", 
+                                            "uihead", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "sub_type": "GET_UI_COMP_PARENT"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            2
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000317, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uihead", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            24
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9head"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1930014827000008, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskill1", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            24
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9skill1"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000101, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskill2", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            24
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9skill2"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000110, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uicommon", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            24
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9common"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1696444497000119, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uihead", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            25
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9cancel"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000227, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskill1", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            25
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9cancel"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000236, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uiskill2", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            25
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9cancel"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000245, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CREATE_UI_COMP_EVENT_EX_EX", 
+                "args_list": [
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            [
+                                "UI_COMP", 
+                                "uicommon", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100072, 
+                        "args_list": [
+                            25
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "\u82f1\u96c4\u9009\u62e9cancel"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000254, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_NAME", 
+                                    "hero", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100116, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "HeroName", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "hero"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UNIT_NAME_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000109, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "ABILITY_NAME", 
+                                    "skill1", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100039, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "HeroName", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skill1"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_ABILITY_NAME_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000120, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "ABILITY_NAME", 
+                                    "skill2", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100039, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "HeroName", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skill2"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_ABILITY_NAME_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000133, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "ABILITY_NAME", 
+                                    "common", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100039, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "HeroName", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "common"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_ABILITY_NAME_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000146, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_IMAGE_NEW", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "head"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100115, 
+                        "args_list": [
+                            {
+                                "arg_type": 100116, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UNIT_NAME", 
+                                            "hero", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }
+                        ], 
+                        "sub_type": "GET_ICON_BY_UNIT_TYPE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000096, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_IMAGE_NEW", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "common"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100115, 
+                        "args_list": [
+                            {
+                                "arg_type": 100039, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "ABILITY_NAME", 
+                                            "common", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "sub_type": "GET_ICON_BY_ABILITY_TYPE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000159, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_IMAGE_NEW", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skill1"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100115, 
+                        "args_list": [
+                            {
+                                "arg_type": 100039, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "ABILITY_NAME", 
+                                            "skill1", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "sub_type": "GET_ICON_BY_ABILITY_TYPE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000193, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_IMAGE_NEW", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skill2"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100115, 
+                        "args_list": [
+                            {
+                                "arg_type": 100039, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "ABILITY_NAME", 
+                                            "skill2", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "sub_type": "GET_ICON_BY_ABILITY_TYPE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 596058228000210, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "color1", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100116, 
+                                        "args_list": [
+                                            [
+                                                "UNIT_NAME", 
+                                                "hero", 
+                                                "local"
+                                            ]
+                                        ], 
+                                        "sub_type": 2
+                                    }
+                                ], 
+                                "sub_type": "GET_UNIT_NAME_BY_TYPE"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 144707700000010, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "color2", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100116, 
+                                        "args_list": [
+                                            [
+                                                "UNIT_NAME", 
+                                                "hero", 
+                                                "local"
+                                            ]
+                                        ], 
+                                        "sub_type": 2
+                                    }
+                                ], 
+                                "sub_type": "GET_DES_ID_BY_UNIT_TYPE"
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 144707700000058, 
+                "enable": true
+            }, 
+            144707700, 
+            564559989, 
+            128528502, 
+            329908343, 
+            1892974712, 
+            1140916345
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": true, 
+        "event": [], 
+        "func_des": "\u82f1\u96c4\u540d\u79f0:{HeroName}\u73a9\u5bb6ID:{PlayerID}", 
+        "func_id": "4f422af02a2f11eead69b025aa4dbe9e", 
+        "func_name": "\u82f1\u96c4\u9009\u62e9\u6ce8\u518c", 
+        "func_param_list": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    "HeroName", 
+                    true
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    "PlayerID", 
+                    true
+                ]
+            }
+        ], 
+        "group_id": 0, 
+        "is_func": true, 
+        "is_official_func": false, 
+        "p_trigger_id": null, 
+        "trigger_id": 596058228, 
+        "trigger_name": "\u82f1\u96c4\u9009\u62e9\u6ce8\u518c", 
+        "valid": true
+    }, 
     "598880320": {
         "action": [
             {
@@ -3859,115 +6457,6 @@
         "p_trigger_id": 1236414513, 
         "trigger_id": 615657531, 
         "trigger_name": "\u5546\u5e97\u7269\u54c1\u7c7b\u578b\u63d0\u793a", 
-        "valid": true
-    }, 
-    "638169198": {
-        "action": [
-            {
-                "action_type": "SET_VARIABLE", 
-                "args_list": [
-                    {
-                        "arg_type": 100030, 
-                        "args_list": [
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    "INTEGER", 
-                                    "\u96be\u5ea6"
-                                ]
-                            }
-                        ], 
-                        "sub_type": 1
-                    }, 
-                    {
-                        "arg_type": 100002, 
-                        "args_list": [
-                            1
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 638169198000002, 
-                "enable": true
-            }, 
-            {
-                "action_type": "CALL_TRIGGER_FUNC", 
-                "args_list": [
-                    {
-                        "arg_type": 100177, 
-                        "args_list": [
-                            {
-                                "arg_type": 1001558, 
-                                "args_list": [
-                                    {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "UI_PREFAB_INSTANCE", 
-                                            "\u754c\u9762\u6a21\u5757", 
-                                            "local"
-                                        ]
-                                    }
-                                ], 
-                                "sub_type": "VARIABLE"
-                            }
-                        ], 
-                        "op_arg": [], 
-                        "op_arg_enable": [], 
-                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
-                    }
-                ], 
-                "bp": false, 
-                "call_rt_arg_idxes": [], 
-                "element_id": 638169198000003, 
-                "enable": true
-            }, 
-            {
-                "action_type": "SEND_CUSTOM_EVENT", 
-                "args_list": [
-                    {
-                        "arg_type": 100238, 
-                        "args_list": [
-                            1852994423
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 638169198000004, 
-                "enable": true
-            }
-        ], 
-        "call_enabled": true, 
-        "condition": [], 
-        "enabled": false, 
-        "event": [
-            {
-                "args_list": [
-                    {
-                        "arg_type": 100067, 
-                        "args_list": [
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea61"
-                                ], 
-                                "sub_type": 1
-                            }
-                        ], 
-                        "sub_type": "STR_TO_UI_EVENT"
-                    }
-                ], 
-                "element_id": 638169198000001, 
-                "enable": true, 
-                "event_type": "TRIGGER_COMPONENT_EVENT"
-            }
-        ], 
-        "group_id": 0, 
-        "is_conf": true, 
-        "p_trigger_id": 1879683181, 
-        "trigger_id": 638169198, 
-        "trigger_name": "\u5b50\u89e6\u53d1\u5668_3", 
         "valid": true
     }, 
     "716320815": {
@@ -6325,6 +8814,517 @@
         "trigger_name": "\u663e\u793a\u9b54\u6cd5\u6548\u679c\u63d0\u793a", 
         "valid": true
     }, 
+    "1039433845": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "INTEGER", 
+                                "\u96be\u5ea6"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            3
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1039433845000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [], 
+                "element_id": 1039433845000003, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SEND_CUSTOM_EVENT", 
+                "args_list": [
+                    {
+                        "arg_type": 100238, 
+                        "args_list": [
+                            1852994423
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1039433845000004, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea63"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 1039433845000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 1327870035, 
+        "trigger_id": 1039433845, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_11", 
+        "valid": true
+    }, 
+    "1140916345": {
+        "action": [
+            {
+                "action_type": "SET_UI_COMP_VISIBLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100001, 
+                        "args_list": [
+                            false
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "992b947a-0330-484d-a985-51aa0c92a56f"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1140916345000007, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_ENTITY", 
+                                    "unit", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 11
+                    }, 
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "arg_type": 100116, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100011, 
+                                        "args_list": [
+                                            3
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "HeroName", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "hero"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_UNIT_NAME_TABLE_VAR_ND"
+                            }, 
+                            {
+                                "arg_type": 100004, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100009, 
+                                        "args_list": [], 
+                                        "sub_type": "GET_USABLE_MAP_RANGE"
+                                    }
+                                ], 
+                                "sub_type": "RECTANGLE_C_POINT"
+                            }, 
+                            {
+                                "arg_type": 100225, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            180.0
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ANGLE_BY_FLOAT"
+                            }, 
+                            {
+                                "arg_type": 100025, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 6
+                                    }
+                                ], 
+                                "sub_type": "GET_ROLE_BY_INT"
+                            }
+                        ], 
+                        "sub_type": "CREATE_UNIT"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1140916345000017, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_ABILITY_LEVEL", 
+                "args_list": [
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UNIT_ENTITY", 
+                                            "unit", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    1
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1140916345000045, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_ABILITY_LEVEL", 
+                "args_list": [
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    [
+                                        "UNIT_ENTITY", 
+                                        "unit", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1140916345000058, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_ABILITY_LEVEL", 
+                "args_list": [
+                    {
+                        "arg_type": 100014, 
+                        "args_list": [
+                            {
+                                "arg_type": 100006, 
+                                "args_list": [
+                                    [
+                                        "UNIT_ENTITY", 
+                                        "unit", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 11
+                            }, 
+                            {
+                                "arg_type": 100182, 
+                                "args_list": [
+                                    3
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    8
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "UNIT_ABILITY"
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1140916345000594, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_IMAGE_NEW", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    8
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    0
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "image"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_COMP_TABLE_VAR_ND"
+                    }, 
+                    {
+                        "arg_type": 100115, 
+                        "args_list": [
+                            {
+                                "arg_type": 100116, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100006, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "UNIT_ENTITY", 
+                                                    "unit", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 11
+                                    }
+                                ], 
+                                "sub_type": "GET_UNIT_KEY_OF_UNIT"
+                            }
+                        ], 
+                        "sub_type": "GET_ICON_BY_UNIT_TYPE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 498991174000591, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u82f1\u96c4\u9009\u62e9"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 1140916345000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 596058228, 
+        "trigger_id": 1140916345, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_15", 
+        "valid": true
+    }, 
     "1169305640": {
         "action": [
             {
@@ -6653,139 +9653,6 @@
         "p_trigger_id": 296890407, 
         "trigger_id": 1169305640, 
         "trigger_name": "Select Unit", 
-        "valid": true
-    }, 
-    "1225371762": {
-        "action": [
-            {
-                "action_type": "SET_UI_COMP_VISIBLE", 
-                "args_list": [
-                    {
-                        "arg_type": 100025, 
-                        "args_list": [], 
-                        "sub_type": "GET_CLIENT_ROLE"
-                    }, 
-                    {
-                        "arg_type": 100001, 
-                        "args_list": [
-                            true
-                        ], 
-                        "sub_type": 1
-                    }, 
-                    {
-                        "arg_type": 100070, 
-                        "args_list": [
-                            "3f71cda3-355d-42e8-8d4b-e425fb3bcf96"
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 1225371762000002, 
-                "enable": true
-            }, 
-            {
-                "action_type": "SET_UI_COMP_TEXT", 
-                "args_list": [
-                    {
-                        "arg_type": 100025, 
-                        "args_list": [], 
-                        "sub_type": "GET_CLIENT_ROLE"
-                    }, 
-                    {
-                        "arg_type": 100070, 
-                        "args_list": [
-                            "fbfdd773-9e9f-4a96-9ecc-7d8e468ad313"
-                        ], 
-                        "sub_type": 1
-                    }, 
-                    {
-                        "arg_type": 100003, 
-                        "args_list": [
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    "\u96be\u5ea6"
-                                ], 
-                                "sub_type": 1
-                            }, 
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "arg_type": 100002, 
-                                        "args_list": [
-                                            {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    "INTEGER", 
-                                                    "\u96be\u5ea6"
-                                                ]
-                                            }
-                                        ], 
-                                        "sub_type": 6
-                                    }
-                                ], 
-                                "sub_type": "ANY_VAR_TO_STR"
-                            }
-                        ], 
-                        "op_arg": [
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null
-                        ], 
-                        "op_arg_enable": [
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false
-                        ], 
-                        "sub_type": "STR_JOIN"
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 1225371762000003, 
-                "enable": true
-            }, 
-            [
-                1548504165, 
-                "\u53ef\u5728\u6b64\u5904\u8854\u63a5\u9009\u62e9\u82f1\u96c4\u6216\u8005\u76f4\u63a5\u5f00\u59cb\u6e38\u620f\uff0c\u6bd4\u5982\u5237\u602a", 
-                1485590594, 
-                "action_type"
-            ]
-        ], 
-        "call_enabled": true, 
-        "condition": [], 
-        "enabled": true, 
-        "event": [
-            {
-                "args_list": [
-                    {
-                        "arg_type": 100238, 
-                        "args_list": [
-                            1852994423
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "element_id": 1225371762000001, 
-                "enable": true, 
-                "event_type": "RECEIVE_CUSTOM_EVENT"
-            }
-        ], 
-        "group_id": 0, 
-        "p_trigger_id": null, 
-        "trigger_id": 1225371762, 
-        "trigger_name": "\u96be\u5ea6\u9009\u62e9\u5b8c\u6210", 
         "valid": true
     }, 
     "1236414519": {
@@ -7851,115 +10718,6 @@
         "p_trigger_id": 1068642332, 
         "trigger_id": 1320300576, 
         "trigger_name": "on_hero_dead", 
-        "valid": true
-    }, 
-    "1326035057": {
-        "action": [
-            {
-                "action_type": "SET_VARIABLE", 
-                "args_list": [
-                    {
-                        "arg_type": 100030, 
-                        "args_list": [
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    "INTEGER", 
-                                    "\u96be\u5ea6"
-                                ]
-                            }
-                        ], 
-                        "sub_type": 1
-                    }, 
-                    {
-                        "arg_type": 100002, 
-                        "args_list": [
-                            4
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 1326035057000002, 
-                "enable": true
-            }, 
-            {
-                "action_type": "CALL_TRIGGER_FUNC", 
-                "args_list": [
-                    {
-                        "arg_type": 100177, 
-                        "args_list": [
-                            {
-                                "arg_type": 1001558, 
-                                "args_list": [
-                                    {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "UI_PREFAB_INSTANCE", 
-                                            "\u754c\u9762\u6a21\u5757", 
-                                            "local"
-                                        ]
-                                    }
-                                ], 
-                                "sub_type": "VARIABLE"
-                            }
-                        ], 
-                        "op_arg": [], 
-                        "op_arg_enable": [], 
-                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
-                    }
-                ], 
-                "bp": false, 
-                "call_rt_arg_idxes": [], 
-                "element_id": 1326035057000003, 
-                "enable": true
-            }, 
-            {
-                "action_type": "SEND_CUSTOM_EVENT", 
-                "args_list": [
-                    {
-                        "arg_type": 100238, 
-                        "args_list": [
-                            1852994423
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 1326035057000004, 
-                "enable": true
-            }
-        ], 
-        "call_enabled": true, 
-        "condition": [], 
-        "enabled": false, 
-        "event": [
-            {
-                "args_list": [
-                    {
-                        "arg_type": 100067, 
-                        "args_list": [
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea64"
-                                ], 
-                                "sub_type": 1
-                            }
-                        ], 
-                        "sub_type": "STR_TO_UI_EVENT"
-                    }
-                ], 
-                "element_id": 1326035057000001, 
-                "enable": true, 
-                "event_type": "TRIGGER_COMPONENT_EVENT"
-            }
-        ], 
-        "group_id": 0, 
-        "is_conf": true, 
-        "p_trigger_id": 1879683181, 
-        "trigger_id": 1326035057, 
-        "trigger_name": "\u5b50\u89e6\u53d1\u5668_7", 
         "valid": true
     }, 
     "1420963901": {
@@ -11065,6 +13823,153 @@
         "trigger_name": "\u5b50\u89e6\u53d1\u5668_9", 
         "valid": true
     }, 
+    "1892974712": {
+        "action": [
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltitle"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            ""
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1892974712000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100025, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "GET_ROLE_BY_INT"
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    [
+                                        "UI_PREFAB_INSTANCE", 
+                                        "uihero", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "skilltext"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_UI_PREFAB_CHILD_BY_PATH"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            ""
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1892974712000003, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u82f1\u96c4\u9009\u62e9cancel"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 1892974712000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 596058228, 
+        "trigger_id": 1892974712, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_14", 
+        "valid": true
+    }, 
     "1907503118": {
         "action": [
             {
@@ -12363,6 +15268,112 @@
         "p_trigger_id": 1236414513, 
         "trigger_id": 2041720892, 
         "trigger_name": "\u5c5e\u6027\u63d0\u793a", 
+        "valid": true
+    }, 
+    "2079621235": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "INTEGER", 
+                                "\u96be\u5ea6"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            1
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 2079621235000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 1001558, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "493fbfb009d611ee9cce309c23206d62"
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [], 
+                "element_id": 2079621235000003, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SEND_CUSTOM_EVENT", 
+                "args_list": [
+                    {
+                        "arg_type": 100238, 
+                        "args_list": [
+                            1852994423
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 2079621235000004, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100067, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u96be\u5ea6\u9009\u62e9\u96be\u5ea61"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "STR_TO_UI_EVENT"
+                    }
+                ], 
+                "element_id": 2079621235000001, 
+                "enable": true, 
+                "event_type": "TRIGGER_COMPONENT_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 1327870035, 
+        "trigger_id": 2079621235, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_8", 
         "valid": true
     }
 }

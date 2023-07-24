@@ -1,22 +1,19 @@
 {
     "_custom_": true, 
     "_ref_": 1, 
-    "attach_model_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "attach_model_list": [], 
     "cycle_time": 0, 
     "description": -1488147206, 
     "disappear_when_dead": true, 
     "get_effect_list": [
         [
-            100562, 
+            103652, 
             {
                 "__tuple__": true, 
                 "items": [
+                    -2.0, 
                     0.0, 
-                    0.4236, 
-                    0.1524
+                    0.0
                 ]
             }, 
             {
@@ -30,15 +27,15 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    0.5, 
-                    0.5, 
-                    0.5
+                    1.0, 
+                    1.0, 
+                    1.0
                 ]
             }, 
             1.0, 
-            "weaponR", 
+            "weapon", 
             true, 
-            1
+            0
         ]
     ], 
     "halo_effect": 0, 
@@ -58,21 +55,18 @@
     "layer_change_of_cover": 1, 
     "layer_max": 1, 
     "lose_effect_list": [], 
-    "material_alpha": 0, 
+    "material_alpha": 0.8, 
     "material_change": 0, 
-    "material_color": {
-        "__tuple__": true, 
-        "items": [
-            255, 
-            255, 
-            255
-        ]
-    }, 
-    "material_color_intensity": 0, 
-    "model": 206230, 
+    "material_color": [
+        40, 
+        160, 
+        200
+    ], 
+    "material_color_intensity": 0.8, 
+    "model": 134251347, 
     "modifier_cover_type": 3, 
     "modifier_effect": 2, 
-    "modifier_icon": 100008, 
+    "modifier_icon": 120780, 
     "modifier_type": 1, 
     "name": 290923584, 
     "same_origin_cover": true, 

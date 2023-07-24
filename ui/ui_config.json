@@ -146,6 +146,13 @@
                         }, 
                         "children": [], 
                         "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "HKXinZongYiW9", 
+                                24
+                            ]
+                        }, 
                         "name": "\u6309\u94ae\u6587\u672c", 
                         "open_adapter": true, 
                         "pos": {
@@ -166,8 +173,15 @@
                     }
                 ], 
                 "event_list": [], 
+                "font": {
+                    "__tuple__": true, 
+                    "items": [
+                        "HKXinZongYiW9", 
+                        24
+                    ]
+                }, 
                 "name": "\u6309\u94ae", 
-                "normal_picture": 107528, 
+                "normal_picture": 101156, 
                 "pos": {
                     "__tuple__": true, 
                     "items": [
@@ -472,16 +486,287 @@
             }, 
             "name": "\u5bf9\u8bdd\u6846\u5c3e\u56fe"
         }, 
+        "c5e3ef96-9e44-44f3-9ec5-a7322164603e": {
+            "data": {
+                "children": [
+                    {
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 101306, 
+                        "name": "head", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                378.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                84.0
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                48.0, 
+                                48.0
+                            ]
+                        }, 
+                        "type": 4
+                    }, 
+                    {
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 131097, 
+                        "name": "common", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                70.0, 
+                                325.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                23.333333333333332, 
+                                72.22222222222221
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                36.0, 
+                                36.0
+                            ]
+                        }, 
+                        "type": 4
+                    }, 
+                    {
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 131097, 
+                        "name": "skill1", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                325.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                72.22222222222221
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                36.0, 
+                                36.0
+                            ]
+                        }, 
+                        "type": 4
+                    }, 
+                    {
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 131097, 
+                        "name": "skill2", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                230.0, 
+                                325.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                76.66666666666667, 
+                                72.22222222222221
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                36.0, 
+                                36.0
+                            ]
+                        }, 
+                        "type": 4
+                    }, 
+                    {
+                        "cap_insets": {
+                            "__tuple__": true, 
+                            "items": [
+                                0, 
+                                0, 
+                                1422, 
+                                958
+                            ]
+                        }, 
+                        "children": [], 
+                        "event_list": [], 
+                        "image": 100457, 
+                        "is_scale9_enable": true, 
+                        "name": "textbg", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                175.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                38.88888888888889
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                240.0, 
+                                260.0
+                            ]
+                        }, 
+                        "type": 4
+                    }, 
+                    {
+                        "alignment": {
+                            "__tuple__": true, 
+                            "items": [
+                                2, 
+                                0
+                            ]
+                        }, 
+                        "children": [], 
+                        "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "HKXinZongYiW9", 
+                                18
+                            ]
+                        }, 
+                        "name": "skilltitle", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                280.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                62.22222222222222
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                220.0, 
+                                20.0
+                            ]
+                        }, 
+                        "text": {
+                            "__tuple__": true, 
+                            "items": [
+                                "<html><body><p><br /></p></body></html>", 
+                                false
+                            ]
+                        }, 
+                        "type": 26
+                    }, 
+                    {
+                        "alignment": {
+                            "__tuple__": true, 
+                            "items": [
+                                1, 
+                                0
+                            ]
+                        }, 
+                        "children": [], 
+                        "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "MSYH", 
+                                16
+                            ]
+                        }, 
+                        "name": "skilltext", 
+                        "pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                150.0, 
+                                165.0
+                            ]
+                        }, 
+                        "pos_percent": {
+                            "__tuple__": true, 
+                            "items": [
+                                50.0, 
+                                36.666666666666664
+                            ]
+                        }, 
+                        "size": {
+                            "__tuple__": true, 
+                            "items": [
+                                220.0, 
+                                200.0
+                            ]
+                        }, 
+                        "text": {
+                            "__tuple__": true, 
+                            "items": [
+                                "<html><body><p><br /></p></body></html>", 
+                                false
+                            ]
+                        }, 
+                        "type": 26
+                    }
+                ], 
+                "event_list": [], 
+                "image": 101098, 
+                "name": "hero", 
+                "pos": {
+                    "__tuple__": true, 
+                    "items": [
+                        960.0, 
+                        540.0
+                    ]
+                }, 
+                "size": {
+                    "__tuple__": true, 
+                    "items": [
+                        300.0, 
+                        450.0
+                    ]
+                }, 
+                "type": 4
+            }, 
+            "name": "\u82f1\u96c4\u5361\u724c"
+        }, 
         "c7c41931-0d0b-4a54-97e0-b933614ca8f8": {
             "data": {
-                "bg_image": 100368, 
+                "bg_image": 100479, 
                 "cap_insets": {
                     "__tuple__": true, 
                     "items": [
-                        10, 
-                        10, 
-                        165, 
-                        52
+                        30, 
+                        20, 
+                        363, 
+                        64
                     ]
                 }, 
                 "children": [
@@ -505,6 +790,22 @@
                         }, 
                         "children": [], 
                         "event_list": [], 
+                        "font": {
+                            "__tuple__": true, 
+                            "items": [
+                                "HKXinZongYiW9", 
+                                30
+                            ]
+                        }, 
+                        "font_color": {
+                            "__tuple__": true, 
+                            "items": [
+                                248, 
+                                154, 
+                                59, 
+                                255
+                            ]
+                        }, 
                         "name": "\u6807\u9898", 
                         "open_adapter": true, 
                         "pos": {
@@ -526,6 +827,7 @@
                 ], 
                 "event_list": [], 
                 "layout_type": 1, 
+                "margin": 10.0, 
                 "name": "\u5217\u8868", 
                 "pos": {
                     "__tuple__": true, 

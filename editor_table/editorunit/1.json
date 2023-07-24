@@ -1,4 +1,7 @@
 {
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 1, 
     "affect_techs": {
@@ -21,7 +24,7 @@
     "attack_speed": 100.0, 
     "attack_speed_grow": 0.0, 
     "attack_type": 10000, 
-    "bar_show_name": 2, 
+    "bar_show_name": 1, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
     "base_color_mod": 1, 
@@ -34,13 +37,13 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0.0, 
+    "billboard_height_offset": 2.5, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1.0, 
     "billboard_scale_y": 1.0, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 0.4, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
@@ -58,12 +61,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "common_ability_list": [
-        [
-            2, 
-            1
-        ]
-    ], 
+    "common_ability_list": [], 
     "common_atk": [
         134221490, 
         1
@@ -116,6 +114,34 @@
         [
             101, 
             0
+        ], 
+        [
+            2, 
+            0
+        ], 
+        [
+            134281675, 
+            0
+        ], 
+        [
+            134266069, 
+            0
+        ], 
+        [
+            134281349, 
+            1
+        ], 
+        [
+            134267502, 
+            1
+        ], 
+        [
+            134280006, 
+            1
+        ], 
+        [
+            134238094, 
+            0
         ]
     ], 
     "hit_rate": 100.0, 
@@ -124,7 +150,7 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
-    "icon": 100089, 
+    "icon": 101306, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
     "intelligence": 10.0, 
@@ -140,19 +166,31 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 1, 
-    "kv": {}, 
+    "kv": {
+        "attack": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attack", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "sort": 0, 
+            "type": 0, 
+            "value": "Attack -1"
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_stock": 5, 
-    "mini_map_icon": 100089, 
+    "mini_map_icon": 101306, 
     "mini_map_icon_scale": 1.0, 
-    "model": 206230, 
+    "model": 134251347, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
     "move_limitation": 1, 
     "move_type": 40, 
-    "mp_color": "Blue", 
+    "mp_color": "Yellow", 
     "mp_key": "MP", 
     "mp_max": 600.0, 
     "mp_max_grow": 50.0, 

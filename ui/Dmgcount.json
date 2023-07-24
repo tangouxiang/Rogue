@@ -2366,6 +2366,6 @@
     "type": 2, 
     "ui_anims": [], 
     "uid": "747daefe-75e4-4d0d-8962-5a9803fbe03e", 
-    "visible": true, 
+    "visible": false, 
     "zorder": 400
 }

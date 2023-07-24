@@ -25,14 +25,11 @@
                                 {
                                     "arg_type": 100025, 
                                     "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "PLAYER", 
-                                                "\u53c2\u6570\u73a9\u5bb6", 
-                                                "local"
-                                            ]
-                                        }
+                                        [
+                                            "PLAYER", 
+                                            "Player", 
+                                            "local"
+                                        ]
                                     ], 
                                     "sub_type": "VARIABLE"
                                 }, 
@@ -113,14 +110,11 @@
                         {
                             "arg_type": 100025, 
                             "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "PLAYER", 
-                                        "\u53c2\u6570\u73a9\u5bb6", 
-                                        "local"
-                                    ]
-                                }
+                                [
+                                    "PLAYER", 
+                                    "Player", 
+                                    "local"
+                                ]
                             ], 
                             "sub_type": "VARIABLE"
                         }, 
@@ -141,14 +135,11 @@
                         {
                             "arg_type": 100003, 
                             "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "STRING", 
-                                        "\u53c2\u6570\u6807\u9898", 
-                                        "local"
-                                    ]
-                                }
+                                [
+                                    "STRING", 
+                                    "Title", 
+                                    "local"
+                                ]
                             ], 
                             "sub_type": 2
                         }
@@ -211,14 +202,11 @@
                         {
                             "arg_type": 100025, 
                             "args_list": [
-                                {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "PLAYER", 
-                                        "\u53c2\u6570\u73a9\u5bb6", 
-                                        "local"
-                                    ]
-                                }
+                                [
+                                    "PLAYER", 
+                                    "Player", 
+                                    "local"
+                                ]
                             ], 
                             "sub_type": "VARIABLE"
                         }
@@ -297,21 +285,21 @@
             "condition": [], 
             "enabled": true, 
             "event": [], 
-            "func_des": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f{\u53c2\u6570\u73a9\u5bb6}", 
+            "func_des": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f{Player}", 
             "func_id": "3d47fe8009d011ee89cd309c23206d62", 
             "func_name": "\u65b0\u5efa\u5bf9\u8bdd\u6846\u9762\u677f", 
             "func_param_list": [
                 {
                     "__tuple__": true, 
                     "items": [
-                        "\u53c2\u6570\u73a9\u5bb6", 
+                        "Player", 
                         true
                     ]
                 }, 
                 {
                     "__tuple__": true, 
                     "items": [
-                        "\u53c2\u6570\u6807\u9898", 
+                        "Title", 
                         false
                     ]
                 }

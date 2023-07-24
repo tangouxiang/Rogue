@@ -1,0 +1,125 @@
+{
+    "adapt_mode": 2, 
+    "children": [
+        {
+            "bg_image": 134255042, 
+            "children": [], 
+            "event_list": [], 
+            "margin": 20.0, 
+            "name": "Heropick", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    600.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    55.55555555555556
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1280.0, 
+                    720.0
+                ]
+            }, 
+            "type": 10, 
+            "uid": "b4ffca11-1fd0-4c7b-b271-6126afb5d68d"
+        }, 
+        {
+            "cap_insets": {
+                "__tuple__": true, 
+                "items": [
+                    65, 
+                    6, 
+                    19, 
+                    77
+                ]
+            }, 
+            "children": [
+                {
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "HKXinZongYiW9", 
+                            50
+                        ]
+                    }, 
+                    "name": "Heropicktext", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            250.0, 
+                            60.0
+                        ]
+                    }, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            960.0, 
+                            120.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "<html><body><p><span style=\"color:#ffffff;\">\u8bf7\u9009\u62e9\u4e00\u4e2a\u82f1\u96c4</span></p></body></html>", 
+                            false
+                        ]
+                    }, 
+                    "type": 26, 
+                    "uid": "c4766366-c750-4b7b-b77d-b82f92d2d047"
+                }
+            ], 
+            "event_list": [], 
+            "image": 131147, 
+            "is_scale9_enable": true, 
+            "name": "Heropicktitlebg", 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    930.0
+                ]
+            }, 
+            "pos_percent": {
+                "__tuple__": true, 
+                "items": [
+                    50.0, 
+                    86.11111111111111
+                ]
+            }, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    500.0, 
+                    120.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "549a73d2-20a1-4505-9056-94091477a4ed", 
+            "visible": false
+        }
+    ], 
+    "name": "\u82f1\u96c4\u9009\u62e9", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "992b947a-0330-484d-a985-51aa0c92a56f", 
+    "visible": true, 
+    "zorder": 400
+}

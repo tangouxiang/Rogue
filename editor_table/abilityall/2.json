@@ -15,7 +15,7 @@
             "10"
         ]
     }, 
-    "ability_cast_type": 2, 
+    "ability_cast_type": 3, 
     "ability_channel_time": 0.0, 
     "ability_cost": {
         "__tuple__": true, 
@@ -41,7 +41,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 120800, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -132,6 +132,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": -653317130, 
     "description": -653317130, 
     "end_sfx_list": {
         "__tuple__": true, 

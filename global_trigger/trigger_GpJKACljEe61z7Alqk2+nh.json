@@ -3,19 +3,473 @@
         "1327870035": {
             "action": [
                 {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                [
+                                    "UI_PREFAB_INSTANCE", 
+                                    "\u754c\u9762\u6a21\u5757", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 1001558, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "call_rt_index": 0, 
+                            "op_arg": [
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u9009\u62e9\u96be\u5ea6"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg_enable": [
+                                true
+                            ], 
+                            "sub_type": "3d47fe8009d011ee89cd309c23206d62"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1879683181000001, 
+                    "enable": true
+                }, 
+                {
                     "action_type": "CALL_TRIGGER_FUNC", 
                     "args_list": [
                         {
                             "arg_type": 100177, 
-                            "args_list": [], 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea6\u9009\u62e9\u96be\u5ea61"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea61"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
                             "op_arg": [], 
                             "op_arg_enable": [], 
-                            "sub_type": "99700cc00ac011ee8982309c23206d62"
+                            "sub_type": "6ed239ae09d111ee9fc1309c23206d62"
                         }
                     ], 
                     "bp": false, 
                     "call_rt_arg_idxes": [], 
-                    "element_id": 1327870035000040, 
+                    "element_id": 1879683181000002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea6\u9009\u62e9\u96be\u5ea62"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea62"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "6ed239ae09d111ee9fc1309c23206d62"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1879683181000003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea6\u9009\u62e9\u96be\u5ea63"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea63"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "6ed239ae09d111ee9fc1309c23206d62"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1879683181000004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea6\u9009\u62e9\u96be\u5ea64"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea64"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "6ed239ae09d111ee9fc1309c23206d62"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1879683181000005, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 1001558, 
+                                    "args_list": [
+                                        [
+                                            "UI_PREFAB_INSTANCE", 
+                                            "\u754c\u9762\u6a21\u5757", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea6\u9009\u62e9\u96be\u5ea65"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u96be\u5ea65"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "6ed239ae09d111ee9fc1309c23206d62"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1327870035000362, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "STORAGE_BOX", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                2079621235, 
+                                167018612, 
+                                1039433845, 
+                                552894582, 
+                                202350706
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u96be\u5ea6\u89e6\u53d1\u5668"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1879683181000006, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1327870035000014, 
+                    "enable": true, 
+                    "event_type": "INIT_FINISHED"
+                }
+            ], 
+            "group_id": "GpJKACljEe61z7Alqk2+nh", 
+            "p_trigger_id": null, 
+            "trigger_id": 1327870035, 
+            "trigger_name": "\u96be\u5ea6\u9009\u62e9", 
+            "valid": true
+        }, 
+        "1696444497": {
+            "action": [
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "Num", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100027, 
+                                    "args_list": [], 
+                                    "sub_type": "ALL_PLAYER"
+                                }
+                            ], 
+                            "sub_type": "PLAYER_T"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1193754703000542, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "FOR_INT_DO_ACTION", 
+                    "args_list": [
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "PlayerID", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                [
+                                    "INTEGER", 
+                                    "Num", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 6
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100177, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u5723\u9a91\u58eb"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "PlayerID", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "4f422af02a2f11eead69b025aa4dbe9e"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "call_rt_arg_idxes": [], 
+                                    "element_id": 1696444497000150, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "PlayerID", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "GET_ROLE_BY_INT"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "549a73d2-20a1-4505-9056-94091477a4ed"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1696444497000496, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1193754703000245, 
                     "enable": true
                 }
             ], 
@@ -26,30 +480,18 @@
                 {
                     "args_list": [
                         {
-                            "arg_type": 100000, 
+                            "arg_type": 100238, 
                             "args_list": [
-                                3.0
+                                1852994423
                             ], 
                             "sub_type": 1
                         }
                     ], 
-                    "element_id": 1327870035000014, 
+                    "element_id": 1225371762000001, 
                     "enable": true, 
-                    "event_type": "GAME_ELAPSE_ONCE"
+                    "event_type": "RECEIVE_CUSTOM_EVENT"
                 }
             ], 
-            "group_id": "GpJKACljEe61z7Alqk2+nh", 
-            "p_trigger_id": null, 
-            "trigger_id": 1327870035, 
-            "trigger_name": "\u96be\u5ea6\u9009\u62e9", 
-            "valid": true
-        }, 
-        "1696444497": {
-            "action": [], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [], 
             "group_id": "GpJKACljEe61z7Alqk2+nh", 
             "p_trigger_id": null, 
             "trigger_id": 1696444497, 
@@ -63,15 +505,15 @@
             {
                 "__tuple__": true, 
                 "items": [
-                    1696444497, 
-                    "\u82f1\u96c4\u9009\u62e9"
+                    1327870035, 
+                    "\u96be\u5ea6\u9009\u62e9"
                 ]
             }, 
             {
                 "__tuple__": true, 
                 "items": [
-                    1327870035, 
-                    "\u96be\u5ea6\u9009\u62e9"
+                    1696444497, 
+                    "\u82f1\u96c4\u9009\u62e9"
                 ]
             }
         ], 

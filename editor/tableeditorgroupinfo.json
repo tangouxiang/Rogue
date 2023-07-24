@@ -47,5 +47,12 @@
    1, 
    "dmgcountlist"
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "HeroChoose"
+  ]
  }
 ]
