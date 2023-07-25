@@ -26,6 +26,17 @@
                 "Y\u951a\u70b9": 0
             }
         }, 
+        "128528502": {
+            "variable_dict": {
+                "ABILITY": {}, 
+                "ABILITY_NAME": {
+                    "skill1": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "skill1": 0
+            }
+        }, 
         "155078740": {
             "variable_dict": {
                 "STRING": {
@@ -122,6 +133,52 @@
                 "\u5b57\u7b26\u4e32": 0, 
                 "\u7ed3\u679c\u8868": 0, 
                 "\u8868\u5bb9\u91cf": 0
+            }
+        }, 
+        "337809530": {
+            "variable_dict": {
+                "ABILITY": {
+                    "skill": null
+                }, 
+                "ABILITY_NAME": {}, 
+                "DAMAGE_TYPE": {
+                    "DmgType": 0
+                }, 
+                "NEW_TIMER": {}, 
+                "STRING": {
+                    "Desc": "", 
+                    "Desc_duration": "", 
+                    "Desc_prob": "", 
+                    "Desc_range": "", 
+                    "Desc_type": "", 
+                    "Desc_value": "", 
+                    "SkillDesc": "", 
+                    "SkillName": "", 
+                    "cDesc": "", 
+                    "cDesc_duration": "", 
+                    "cDesc_prob": "", 
+                    "cDesc_range": "", 
+                    "cDesc_type": "", 
+                    "cDesc_value": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "Desc": 0, 
+                "Desc_duration": 0, 
+                "Desc_prob": 0, 
+                "Desc_range": 0, 
+                "Desc_type": 0, 
+                "Desc_value": 0, 
+                "DmgType": 0, 
+                "SkillDesc": 0, 
+                "SkillName": 0, 
+                "cDesc": 0, 
+                "cDesc_duration": 0, 
+                "cDesc_prob": 0, 
+                "cDesc_range": 0, 
+                "cDesc_type": 0, 
+                "cDesc_value": 0, 
+                "skill": 0
             }
         }, 
         "340377704": {
@@ -326,6 +383,11 @@
         }, 
         "596058228": {
             "variable_dict": {
+                "ABILITY": {
+                    "Common": null, 
+                    "Skill1": null, 
+                    "Skill2": null
+                }, 
                 "ABILITY_NAME": {
                     "common": 0, 
                     "skill1": 0, 
@@ -335,6 +397,10 @@
                     "PlayerID": 0
                 }, 
                 "STRING": {
+                    "Desc": "", 
+                    "Desc_1": "", 
+                    "Desc_2": "", 
+                    "Desc_common": "", 
                     "HeroName": "", 
                     "color1": "", 
                     "color2": ""
@@ -355,8 +421,15 @@
                 }
             }, 
             "variable_length_dict": {
+                "Common": 0, 
+                "Desc": 0, 
+                "Desc_1": 0, 
+                "Desc_2": 0, 
+                "Desc_common": 0, 
                 "HeroName": 0, 
                 "PlayerID": 0, 
+                "Skill1": 0, 
+                "Skill2": 0, 
                 "color1": 0, 
                 "color2": 0, 
                 "common": 0, 
@@ -645,17 +718,10 @@
         }, 
         "1140916345": {
             "variable_dict": {
-                "INTEGER": {
-                    "i": 1
-                }, 
-                "UNIT_ENTITY": {
-                    "unit": 0
-                }
+                "INTEGER": {}, 
+                "UNIT_ENTITY": {}
             }, 
-            "variable_length_dict": {
-                "i": 0, 
-                "unit": 0
-            }
+            "variable_length_dict": {}
         }, 
         "1179238494": {
             "variable_dict": {
@@ -1108,13 +1174,17 @@
         "1699360849": {
             "variable_dict": {
                 "FLOAT": {
+                    "dmg/s": 0.0, 
                     "dmgcount": 0.0, 
                     "mdmg": 0.0, 
                     "mdmg%": 0.0, 
+                    "mdmg/s": 0.0, 
                     "pdmg": 0.0, 
                     "pdmg%": 0.0, 
+                    "pdmg/s": 0.0, 
                     "rdmg": 0.0, 
-                    "rdmg%": 0.0
+                    "rdmg%": 0.0, 
+                    "rdmg/s": 0.0
                 }, 
                 "INTEGER": {
                     "CmpIndex": 0, 
@@ -1128,10 +1198,14 @@
                     "dgmstring": "", 
                     "m%string": "", 
                     "mstring": "", 
+                    "mstring_s": "", 
                     "p%string": "", 
                     "pstring": "", 
+                    "pstring_s": "", 
                     "r%string": "", 
-                    "rstring": ""
+                    "rstring": "", 
+                    "rstring_s": "", 
+                    "string_s": ""
                 }, 
                 "TABLE": {
                     "DmgList": null
@@ -1146,19 +1220,27 @@
                 "color_p": 0, 
                 "color_r": 0, 
                 "dgmstring": 0, 
+                "dmg/s": 0, 
                 "dmgcount": 0, 
                 "m%string": 0, 
                 "mdmg": 0, 
                 "mdmg%": 0, 
+                "mdmg/s": 0, 
                 "mstring": 0, 
+                "mstring_s": 0, 
                 "p%string": 0, 
                 "pdmg": 0, 
                 "pdmg%": 0, 
+                "pdmg/s": 0, 
                 "pstring": 0, 
+                "pstring_s": 0, 
                 "r%string": 0, 
                 "rdmg": 0, 
                 "rdmg%": 0, 
-                "rstring": 0
+                "rdmg/s": 0, 
+                "rstring": 0, 
+                "rstring_s": 0, 
+                "string_s": 0
             }
         }, 
         "1773285395": {
@@ -1276,7 +1358,6 @@
                 "FLOAT": {
                     "A*": 0.0, 
                     "B*": 0.0, 
-                    "BasicDmg": 0.0, 
                     "C*": 0.0, 
                     "D*": 0.0, 
                     "Dmg": 0.0, 
@@ -1293,7 +1374,9 @@
                     "pdmg%": 0.0, 
                     "rdmg": 0.0, 
                     "rdmg%": 0.0, 
-                    "str": 0.0
+                    "str": 0.0, 
+                    "\u4f24\u5bb3\u7cfb\u6570": 0.0, 
+                    "\u72ec\u7acb\u589e\u4f24": 1.0
                 }, 
                 "INTEGER": {
                     "CountIndex": 0, 
@@ -1322,7 +1405,6 @@
             "variable_length_dict": {
                 "A*": 0, 
                 "B*": 0, 
-                "BasicDmg": 0, 
                 "C*": 0, 
                 "CountIndex": 0, 
                 "D*": 0, 
@@ -1358,7 +1440,9 @@
                 "rstring": 0, 
                 "str": 0, 
                 "temp": 0, 
-                "unit": 0
+                "unit": 0, 
+                "\u4f24\u5bb3\u7cfb\u6570": 0, 
+                "\u72ec\u7acb\u589e\u4f24": 0
             }
         }, 
         "1823617086": {
@@ -1562,6 +1646,7 @@
         "DAMAGE_TYPE": {}, 
         "FLOAT": {
             "Dmgcount": 0.0, 
+            "Dpstime": 0.0, 
             "dmgcount1": 0.0, 
             "dmgcount2": 0.0, 
             "dmgcount3": 0.0, 
@@ -1581,7 +1666,9 @@
         "UI_COMP": {
             "Dmgcountcmp": ""
         }, 
-        "UNIT_ENTITY": {}, 
+        "UNIT_ENTITY": {
+            "Hero": 0
+        }, 
         "UNIT_NAME": {}
     }, 
     "variable_group_info": [
@@ -1696,12 +1783,28 @@
                 "\u96be\u5ea6", 
                 "\u96be\u5ea6"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Hero", 
+                "Hero"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Dpstime", 
+                "Dpstime"
+            ]
         }
     ], 
     "variable_length_dict": {
         "Dmgcount": 10, 
         "Dmgcountcmp": 10, 
+        "Dpstime": 10, 
         "GLOBAL_BAG_MAX_NUM": 0, 
+        "Hero": 10, 
         "UI_Manager": 0, 
         "dmgcount1": 10, 
         "dmgcount2": 10, 

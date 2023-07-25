@@ -335,8 +335,16 @@
                             "args_list": [
                                 {
                                     "arg_type": 100027, 
-                                    "args_list": [], 
-                                    "sub_type": "ALL_PLAYER"
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100020, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "TEAM_PLAYER"
                                 }
                             ], 
                             "sub_type": "PLAYER_T"
@@ -393,7 +401,7 @@
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "\u5723\u9a91\u58eb"
+                                                        "\u9a91\u58eb"
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -462,6 +470,45 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1696444497000496, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "SET_UI_COMP_VISIBLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        [
+                                                            "INTEGER", 
+                                                            "PlayerID", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "GET_ROLE_BY_INT"
+                                        }, 
+                                        {
+                                            "arg_type": 100001, 
+                                            "args_list": [
+                                                true
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100070, 
+                                            "args_list": [
+                                                "f9e536e7-e0c9-4a8a-a812-5c12d1e46016"
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1696444497000545, 
                                     "enable": true
                                 }
                             ], 

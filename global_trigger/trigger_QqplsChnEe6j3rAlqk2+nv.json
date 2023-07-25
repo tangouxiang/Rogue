@@ -19506,7 +19506,7 @@
                                                                 {
                                                                     "args_list": [
                                                                         {
-                                                                            "arg_type": 100000, 
+                                                                            "arg_type": 100014, 
                                                                             "args_list": [
                                                                                 {
                                                                                     "arg_type": 100006, 
@@ -19523,38 +19523,31 @@
                                                                                     "sub_type": 11
                                                                                 }, 
                                                                                 {
-                                                                                    "arg_type": 100301, 
+                                                                                    "arg_type": 100182, 
                                                                                     "args_list": [
-                                                                                        "ATTR_OTHER"
+                                                                                        1
                                                                                     ], 
                                                                                     "sub_type": 1
                                                                                 }, 
                                                                                 {
-                                                                                    "arg_type": 100042, 
+                                                                                    "arg_type": 100002, 
                                                                                     "args_list": [
-                                                                                        "attack_phy"
+                                                                                        1
                                                                                     ], 
                                                                                     "sub_type": 1
                                                                                 }
                                                                             ], 
-                                                                            "sub_type": "GET_UNIT_ATTR"
+                                                                            "sub_type": "UNIT_ABILITY"
                                                                         }, 
                                                                         {
-                                                                            "arg_type": 100015, 
+                                                                            "arg_type": 100003, 
                                                                             "args_list": [
-                                                                                "!="
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100000, 
-                                                                            "args_list": [
-                                                                                0.0
+                                                                                "\u7269\u7406"
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }
                                                                     ], 
-                                                                    "condition_type": "FLOAT_COMPARE", 
+                                                                    "condition_type": "ABILITY_HAS_TAG", 
                                                                     "element_id": 1219637254000005, 
                                                                     "enable": true
                                                                 }
@@ -21332,7 +21325,7 @@
                                                                                                 {
                                                                                                     "arg_type": 100301, 
                                                                                                     "args_list": [
-                                                                                                        "ATTR_OTHER"
+                                                                                                        "ATTR_RESULT"
                                                                                                     ], 
                                                                                                     "sub_type": 1
                                                                                                 }, 
@@ -21737,7 +21730,7 @@
                                                                                                 {
                                                                                                     "arg_type": 100301, 
                                                                                                     "args_list": [
-                                                                                                        "ATTR_OTHER"
+                                                                                                        "ATTR_RESULT"
                                                                                                     ], 
                                                                                                     "sub_type": 1
                                                                                                 }, 
@@ -22142,7 +22135,7 @@
                                                                                                 {
                                                                                                     "arg_type": 100301, 
                                                                                                     "args_list": [
-                                                                                                        "ATTR_OTHER"
+                                                                                                        "ATTR_RESULT"
                                                                                                     ], 
                                                                                                     "sub_type": 1
                                                                                                 }, 

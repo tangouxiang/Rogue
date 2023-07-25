@@ -185,41 +185,14 @@
                                     ], 
                                     "sub_type": 1
                                 }, 
-                                {
-                                    "arg_type": 100000, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }, 
-                                        {
-                                            "arg_type": 100301, 
-                                            "args_list": [
-                                                "ATTR_RESULT"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100042, 
-                                            "args_list": [
-                                                "attack_phy"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_UNIT_ATTR"
-                                }, 
-                                {
-                                    "arg_type": 100001, 
-                                    "args_list": [
-                                        true
-                                    ], 
-                                    "sub_type": 1
-                                }
+                                null
                             ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
+                            "op_arg": [
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false
+                            ], 
                             "sub_type": "9b1bd76e284d11eeb11cb025aa4dbe9e"
                         }
                     ], 
@@ -244,7 +217,7 @@
             "p_trigger_id": null, 
             "trigger_id": 1568333826, 
             "trigger_name": "\u6280\u80fd\u524d\u6447\u7ed3\u675f", 
-            "valid": true
+            "valid": false
         }
     }, 
     "trigger_group_info": [

@@ -239,7 +239,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "\u6cd5\u672f"
+        ]
     }, 
     "target_attribute": 0, 
     "theme": 1, 

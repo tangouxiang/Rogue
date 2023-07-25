@@ -227,31 +227,6 @@
                                     "sub_type": 2
                                 }, 
                                 {
-                                    "arg_type": 100000, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }, 
-                                        {
-                                            "arg_type": 100301, 
-                                            "args_list": [
-                                                "ATTR_RESULT"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100042, 
-                                            "args_list": [
-                                                "attack_mag"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_UNIT_ATTR"
-                                }, 
-                                {
                                     "arg_type": 100001, 
                                     "args_list": [
                                         true
@@ -259,8 +234,12 @@
                                     "sub_type": 1
                                 }
                             ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
+                            "op_arg": [
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false
+                            ], 
                             "sub_type": "9b1bd76e284d11eeb11cb025aa4dbe9e"
                         }
                     ], 

@@ -287,72 +287,19 @@
                         "arg_type": 100003, 
                         "args_list": [
                             {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "STRING", 
-                                            "color2", 
-                                            "local"
-                                        ]
-                                    }
-                                ], 
-                                "sub_type": 2
-                            }, 
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "arg_type": 100039, 
-                                        "args_list": [
-                                            {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    "ABILITY_NAME", 
-                                                    "skill1", 
-                                                    "local"
-                                                ]
-                                            }
-                                        ], 
-                                        "sub_type": "VARIABLE"
-                                    }, 
-                                    {
-                                        "arg_type": 100221, 
-                                        "args_list": [
-                                            "description"
-                                        ], 
-                                        "sub_type": 1
-                                    }
-                                ], 
-                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_1", 
+                                    "local"
+                                ]
                             }
                         ], 
-                        "op_arg": [
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null
-                        ], 
-                        "op_arg_enable": [
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false
-                        ], 
-                        "sub_type": "STR_JOIN"
+                        "sub_type": 2
                     }
                 ], 
                 "bp": false, 
-                "element_id": 564559989000044, 
+                "element_id": 128528502000058, 
                 "enable": true
             }
         ], 
@@ -1550,72 +1497,19 @@
                         "arg_type": 100003, 
                         "args_list": [
                             {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "STRING", 
-                                            "color2", 
-                                            "local"
-                                        ]
-                                    }
-                                ], 
-                                "sub_type": 2
-                            }, 
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "arg_type": 100039, 
-                                        "args_list": [
-                                            {
-                                                "__tuple__": true, 
-                                                "items": [
-                                                    "ABILITY_NAME", 
-                                                    "skill2", 
-                                                    "local"
-                                                ]
-                                            }
-                                        ], 
-                                        "sub_type": "VARIABLE"
-                                    }, 
-                                    {
-                                        "arg_type": 100221, 
-                                        "args_list": [
-                                            "description"
-                                        ], 
-                                        "sub_type": 1
-                                    }
-                                ], 
-                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_2", 
+                                    "local"
+                                ]
                             }
                         ], 
-                        "op_arg": [
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null
-                        ], 
-                        "op_arg_enable": [
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false
-                        ], 
-                        "sub_type": "STR_JOIN"
+                        "sub_type": 2
                     }
                 ], 
                 "bp": false, 
-                "element_id": 564559989000044, 
+                "element_id": 128528502000058, 
                 "enable": true
             }
         ], 
@@ -1649,6 +1543,1924 @@
         "p_trigger_id": 596058228, 
         "trigger_id": 329908343, 
         "trigger_name": "\u5b50\u89e6\u53d1\u5668_13", 
+        "valid": true
+    }, 
+    "337809530": {
+        "action": [
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "DAMAGE_TYPE", 
+                                    "DmgType", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100064, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    2
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "SkillName", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u4f24\u5bb3\u7c7b\u578b"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_DAMAGE_TYPE_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000001, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "cDesc", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#fdc958"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100064, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "DAMAGE_TYPE", 
+                                                    "DmgType", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "=="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100064, 
+                                        "args_list": [
+                                            0
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "DAMAGE_TYPE_COMPARE", 
+                                "element_id": 337809530000003, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "cDesc_value", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "#ff6666"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000004, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "IF_THEN_ELSE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100021, 
+                                        "args_list": [
+                                            {
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100064, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "DAMAGE_TYPE", 
+                                                                    "DmgType", 
+                                                                    "local"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": 2
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100035, 
+                                                        "args_list": [
+                                                            "=="
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100064, 
+                                                        "args_list": [
+                                                            1
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "condition_type": "DAMAGE_TYPE_COMPARE", 
+                                                "element_id": 337809530000005, 
+                                                "enable": true
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100022, 
+                                        "args_list": [
+                                            {
+                                                "action_type": "SET_VARIABLE", 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100030, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "STRING", 
+                                                                    "cDesc_value", 
+                                                                    "local"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            "#99ccff"
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "bp": false, 
+                                                "element_id": 337809530000006, 
+                                                "enable": true
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100022, 
+                                        "args_list": [
+                                            {
+                                                "action_type": "SET_VARIABLE", 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100030, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "STRING", 
+                                                                    "cDesc_value", 
+                                                                    "local"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            "#ffb266"
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "bp": false, 
+                                                "element_id": 337809530000007, 
+                                                "enable": true
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000008, 
+                                "enable": true, 
+                                "fake_op": [
+                                    2
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000009, 
+                "enable": true, 
+                "fake_op": [
+                    2
+                ]
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "cDesc_type", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#f47e2f"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000010, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "cDesc_duration", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#f47e2f"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000011, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "cDesc_range", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#f47e2f"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000012, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "cDesc_prob", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            "#af2ff4"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000013, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    9
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "SkillName", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u63cf\u8ff0"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_STRING_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000014, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_type", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    9
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "SkillName", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u4f24\u5bb3\u7c7b\u578b"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_STRING_TABLE_VAR_ND"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000015, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_range", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100011, 
+                                                "args_list": [
+                                                    9
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillName", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\u4f5c\u7528\u8303\u56f4"
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                    }
+                                ], 
+                                "sub_type": "F2I"
+                            }
+                        ], 
+                        "sub_type": "ANY_VAR_TO_STR"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000016, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_value", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100011, 
+                                        "args_list": [
+                                            9
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "SkillName", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "\u4f24\u5bb3\u5c5e\u6027"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_STRING_TABLE_VAR_ND"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u00d7"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "op_arg": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100000, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100011, 
+                                                        "args_list": [
+                                                            9
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            [
+                                                                "STRING", 
+                                                                "SkillName", 
+                                                                "local"
+                                                            ]
+                                                        ], 
+                                                        "sub_type": 2
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            "\u4f24\u5bb3\u7cfb\u6570"
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    2
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    true
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg_enable": [
+                                            true
+                                        ], 
+                                        "sub_type": "ROUND_DEC"
+                                    }
+                                ], 
+                                "sub_type": "ANY_VAR_TO_STR"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "Desc_type", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            true, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000017, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_duration", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100011, 
+                                                "args_list": [
+                                                    9
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillName", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\u6301\u7eed\u65f6\u95f4"
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                    }
+                                ], 
+                                "sub_type": "ANY_VAR_TO_STR"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u79d2"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "op_arg": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100000, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100011, 
+                                                        "args_list": [
+                                                            9
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            [
+                                                                "STRING", 
+                                                                "SkillName", 
+                                                                "local"
+                                                            ]
+                                                        ], 
+                                                        "sub_type": 2
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            "\u4f24\u5bb3\u7cfb\u6570"
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    2
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    true
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg_enable": [
+                                            true
+                                        ], 
+                                        "sub_type": "ROUND_DEC"
+                                    }
+                                ], 
+                                "sub_type": "ANY_VAR_TO_STR"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "Desc_type", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000018, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_prob", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100011, 
+                                                "args_list": [
+                                                    9
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillName", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\u89e6\u53d1\u6982\u7387"
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                    }
+                                ], 
+                                "sub_type": "ANY_VAR_TO_STR"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "%"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "op_arg": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100000, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100011, 
+                                                        "args_list": [
+                                                            9
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            [
+                                                                "STRING", 
+                                                                "SkillName", 
+                                                                "local"
+                                                            ]
+                                                        ], 
+                                                        "sub_type": 2
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [
+                                                            "\u4f24\u5bb3\u7cfb\u6570"
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }
+                                                ], 
+                                                "sub_type": "GET_FLOAT_TABLE_VAR_ND"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    2
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    true
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg_enable": [
+                                            true
+                                        ], 
+                                        "sub_type": "ROUND_DEC"
+                                    }
+                                ], 
+                                "sub_type": "ANY_VAR_TO_STR"
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    [
+                                        "STRING", 
+                                        "Desc_type", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000019, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "SkillDesc", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "cDesc", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "STRING", 
+                                            "Desc", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 2
+                            }
+                        ], 
+                        "op_arg": [
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "op_arg_enable": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            false
+                        ], 
+                        "sub_type": "STR_JOIN"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000020, 
+                "enable": true
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "Desc_type", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "!="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            ""
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 337809530000021, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "SkillDesc", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillDesc", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "cDesc_type", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\\N\u4f24\u5bb3\u7c7b\u578b\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    [
+                                                        "STRING", 
+                                                        "Desc_type", 
+                                                        "local"
+                                                    ]
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            true, 
+                                            true, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000022, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            [
+                                                "STRING", 
+                                                "SkillDesc", 
+                                                "local"
+                                            ]
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    [
+                                                        "STRING", 
+                                                        "SkillDesc", 
+                                                        "local"
+                                                    ]
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "cDesc_value", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\\N\u4f24\u5bb3\u7cfb\u6570\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    [
+                                                        "STRING", 
+                                                        "Desc_value", 
+                                                        "local"
+                                                    ]
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            true, 
+                                            true, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000078, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000023, 
+                "enable": true, 
+                "fake_op": []
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "Desc_prob", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "!="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "0.00%"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 337809530000027, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "SkillDesc", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillDesc", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "cDesc_prob", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\\N\u89e6\u53d1\u6982\u7387\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    [
+                                                        "STRING", 
+                                                        "Desc_prob", 
+                                                        "local"
+                                                    ]
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            true, 
+                                            true, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000028, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000029, 
+                "enable": true, 
+                "fake_op": []
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "Desc_range", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "!="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "0"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 337809530000030, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "SkillDesc", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillDesc", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "cDesc_range", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\\N\u4f5c\u7528\u8303\u56f4\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    [
+                                                        "STRING", 
+                                                        "Desc_range", 
+                                                        "local"
+                                                    ]
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            true, 
+                                            true, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000031, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000032, 
+                "enable": true, 
+                "fake_op": []
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "Desc_duration", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "!="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "0.00\u79d2"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 337809530000033, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100030, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "STRING", 
+                                                    "SkillDesc", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "SkillDesc", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "STRING", 
+                                                            "cDesc_duration", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 2
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\\N\u6301\u7eed\u65f6\u95f4\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    [
+                                                        "STRING", 
+                                                        "Desc_duration", 
+                                                        "local"
+                                                    ]
+                                                ], 
+                                                "sub_type": 2
+                                            }, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            true, 
+                                            true, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 337809530000034, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000035, 
+                "enable": true, 
+                "fake_op": []
+            }, 
+            {
+                "action_type": 400342, 
+                "args_list": [
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "SkillDesc", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 2
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 337809530000076, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": true, 
+        "event": [], 
+        "func_des": "\u6280\u80fd:\u6280\u80fdID:{SkillName}", 
+        "func_id": "82a684402aa711ee9699b025aa4dbe9e", 
+        "func_name": "\u6280\u80fd\u63cf\u8ff0\u751f\u6210", 
+        "func_param_list": [
+            [
+                "SkillName", 
+                true
+            ]
+        ], 
+        "func_return": true, 
+        "func_rtv_name_list": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    "Desc", 
+                    "STRING"
+                ]
+            }
+        ], 
+        "group_id": 0, 
+        "is_func": true, 
+        "is_official_func": false, 
+        "p_trigger_id": null, 
+        "trigger_id": 337809530, 
+        "trigger_name": "\u6280\u80fd\u63cf\u8ff0\u751f\u6210", 
         "valid": true
     }, 
     "380776485": {
@@ -3761,65 +5573,15 @@
                         "arg_type": 100003, 
                         "args_list": [
                             {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "STRING", 
-                                            "color2", 
-                                            "local"
-                                        ]
-                                    }
-                                ], 
-                                "sub_type": 2
-                            }, 
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [
-                                    {
-                                        "arg_type": 100039, 
-                                        "args_list": [
-                                            [
-                                                "ABILITY_NAME", 
-                                                "common", 
-                                                "local"
-                                            ]
-                                        ], 
-                                        "sub_type": "VARIABLE"
-                                    }, 
-                                    {
-                                        "arg_type": 100221, 
-                                        "args_list": [
-                                            "description"
-                                        ], 
-                                        "sub_type": 1
-                                    }
-                                ], 
-                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_common", 
+                                    "local"
+                                ]
                             }
                         ], 
-                        "op_arg": [
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null, 
-                            null
-                        ], 
-                        "op_arg_enable": [
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false, 
-                            false
-                        ], 
-                        "sub_type": "STR_JOIN"
+                        "sub_type": 2
                     }
                 ], 
                 "bp": false, 
@@ -4778,6 +6540,186 @@
                 ], 
                 "bp": false, 
                 "element_id": 596058228000146, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "skill1", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "name"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "82a684402aa711ee9699b025aa4dbe9e"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_1", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 2
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [
+                    0
+                ], 
+                "element_id": 596058228000339, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "skill2", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "name"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "82a684402aa711ee9699b025aa4dbe9e"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_2", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 2
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [
+                    0
+                ], 
+                "element_id": 596058228000352, 
+                "enable": true
+            }, 
+            {
+                "action_type": "CALL_TRIGGER_FUNC", 
+                "args_list": [
+                    {
+                        "arg_type": 100177, 
+                        "args_list": [
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100039, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "ABILITY_NAME", 
+                                                    "common", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": "VARIABLE"
+                                    }, 
+                                    {
+                                        "arg_type": 100221, 
+                                        "args_list": [
+                                            "name"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_ABILITY_CONF_STR_ATTR"
+                            }
+                        ], 
+                        "op_arg": [], 
+                        "op_arg_enable": [], 
+                        "sub_type": "82a684402aa711ee9699b025aa4dbe9e"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "STRING", 
+                                    "Desc_common", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 2
+                    }
+                ], 
+                "bp": false, 
+                "call_rt_arg_idxes": [
+                    0
+                ], 
+                "element_id": 596058228000365, 
                 "enable": true
             }, 
             {
@@ -8974,9 +10916,22 @@
                                 "__tuple__": true, 
                                 "items": [
                                     "UNIT_ENTITY", 
-                                    "unit", 
-                                    "local"
+                                    "Hero"
                                 ]
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
                             }
                         ], 
                         "sub_type": 11
@@ -9083,9 +11038,22 @@
                                         "__tuple__": true, 
                                         "items": [
                                             "UNIT_ENTITY", 
-                                            "unit", 
-                                            "local"
+                                            "Hero"
                                         ]
+                                    }, 
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 6
                                     }
                                 ], 
                                 "sub_type": 11
@@ -9093,7 +11061,7 @@
                             {
                                 "arg_type": 100182, 
                                 "args_list": [
-                                    3
+                                    2
                                 ], 
                                 "sub_type": 1
                             }, 
@@ -9128,18 +11096,34 @@
                             {
                                 "arg_type": 100006, 
                                 "args_list": [
-                                    [
-                                        "UNIT_ENTITY", 
-                                        "unit", 
-                                        "local"
-                                    ]
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UNIT_ENTITY", 
+                                            "Hero"
+                                        ]
+                                    }, 
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 6
+                                    }
                                 ], 
                                 "sub_type": 11
                             }, 
                             {
                                 "arg_type": 100182, 
                                 "args_list": [
-                                    3
+                                    2
                                 ], 
                                 "sub_type": 1
                             }, 
@@ -9174,18 +11158,34 @@
                             {
                                 "arg_type": 100006, 
                                 "args_list": [
-                                    [
-                                        "UNIT_ENTITY", 
-                                        "unit", 
-                                        "local"
-                                    ]
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "UNIT_ENTITY", 
+                                            "Hero"
+                                        ]
+                                    }, 
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "INTEGER", 
+                                                    "PlayerID", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 6
+                                    }
                                 ], 
                                 "sub_type": 11
                             }, 
                             {
                                 "arg_type": 100182, 
                                 "args_list": [
-                                    3
+                                    2
                                 ], 
                                 "sub_type": 1
                             }, 
@@ -9274,9 +11274,22 @@
                                                 "__tuple__": true, 
                                                 "items": [
                                                     "UNIT_ENTITY", 
-                                                    "unit", 
-                                                    "local"
+                                                    "Hero"
                                                 ]
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "INTEGER", 
+                                                            "PlayerID", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 6
                                             }
                                         ], 
                                         "sub_type": 11
@@ -9291,7 +11304,8 @@
                 "bp": false, 
                 "element_id": 498991174000591, 
                 "enable": true
-            }
+            }, 
+            1507852410
         ], 
         "call_enabled": true, 
         "condition": [], 
@@ -11947,6 +13961,360 @@
         "p_trigger_id": 1236414513, 
         "trigger_id": 1488072767, 
         "trigger_name": "\u8d2d\u4e70\u7269\u54c1", 
+        "valid": true
+    }, 
+    "1507852410": {
+        "action": [
+            {
+                "action_type": "SET_ATTR", 
+                "args_list": [
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_ENTITY", 
+                                    "Hero"
+                                ]
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": 11
+                    }, 
+                    {
+                        "arg_type": 100300, 
+                        "args_list": [
+                            "ATTR_BASE"
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100042, 
+                        "args_list": [
+                            "eQobwCrvEe6GH7Alqk2+ns"
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100000, 
+                        "args_list": [
+                            {
+                                "arg_type": 100000, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100006, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "UNIT_ENTITY", 
+                                                    "Hero"
+                                                ]
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "INTEGER", 
+                                                            "PlayerID", 
+                                                            "local"
+                                                        ]
+                                                    }
+                                                ], 
+                                                "sub_type": 6
+                                            }
+                                        ], 
+                                        "sub_type": 11
+                                    }, 
+                                    {
+                                        "arg_type": 100301, 
+                                        "args_list": [
+                                            "ATTR_RESULT"
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100042, 
+                                        "args_list": [
+                                            "strength"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "sub_type": "GET_UNIT_ATTR"
+                            }, 
+                            {
+                                "arg_type": 100017, 
+                                "args_list": [
+                                    "+"
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100000, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100006, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "UNIT_ENTITY", 
+                                                            "Hero"
+                                                        ]
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "INTEGER", 
+                                                                    "PlayerID", 
+                                                                    "local"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": 6
+                                                    }
+                                                ], 
+                                                "sub_type": 11
+                                            }, 
+                                            {
+                                                "arg_type": 100301, 
+                                                "args_list": [
+                                                    "ATTR_RESULT"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100042, 
+                                                "args_list": [
+                                                    "agility"
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "GET_UNIT_ATTR"
+                                    }, 
+                                    {
+                                        "arg_type": 100017, 
+                                        "args_list": [
+                                            "+"
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100006, 
+                                                "args_list": [
+                                                    {
+                                                        "__tuple__": true, 
+                                                        "items": [
+                                                            "UNIT_ENTITY", 
+                                                            "Hero"
+                                                        ]
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "INTEGER", 
+                                                                    "PlayerID", 
+                                                                    "local"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": 6
+                                                    }
+                                                ], 
+                                                "sub_type": 11
+                                            }, 
+                                            {
+                                                "arg_type": 100301, 
+                                                "args_list": [
+                                                    "ATTR_RESULT"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100042, 
+                                                "args_list": [
+                                                    "intelligence"
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "GET_UNIT_ATTR"
+                                    }
+                                ], 
+                                "sub_type": "ARITHMETIC_OPERATION"
+                            }
+                        ], 
+                        "sub_type": "ARITHMETIC_OPERATION"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1507852410000025, 
+                "enable": true
+            }
+        ], 
+        "call_enabled": true, 
+        "condition": [], 
+        "enabled": false, 
+        "event": [
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_ENTITY", 
+                                    "Hero"
+                                ]
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": 11
+                    }, 
+                    {
+                        "arg_type": 100041, 
+                        "args_list": [
+                            "strength"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "element_id": 1507852410000003, 
+                "enable": true, 
+                "event_type": "UNIT_ATTR_EVENT"
+            }, 
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_ENTITY", 
+                                    "Hero"
+                                ]
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": 11
+                    }, 
+                    {
+                        "arg_type": 100041, 
+                        "args_list": [
+                            "agility"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "element_id": 1507852410000010, 
+                "enable": true, 
+                "event_type": "UNIT_ATTR_EVENT"
+            }, 
+            {
+                "args_list": [
+                    {
+                        "arg_type": 100006, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UNIT_ENTITY", 
+                                    "Hero"
+                                ]
+                            }, 
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "PlayerID", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": 11
+                    }, 
+                    {
+                        "arg_type": 100041, 
+                        "args_list": [
+                            "intelligence"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "element_id": 1507852410000017, 
+                "enable": true, 
+                "event_type": "UNIT_ATTR_EVENT"
+            }
+        ], 
+        "group_id": 0, 
+        "is_conf": true, 
+        "p_trigger_id": 1140916345, 
+        "trigger_id": 1507852410, 
+        "trigger_name": "\u5b50\u89e6\u53d1\u5668_16", 
         "valid": true
     }, 
     "1555181612": {

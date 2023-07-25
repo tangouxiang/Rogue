@@ -3,7 +3,7 @@
   "__tuple__": true, 
   "items": [
    2, 
-   "DmgType"
+   "DmgSkill"
   ]
  }, 
  {
@@ -53,6 +53,13 @@
   "items": [
    3, 
    "HeroChoose"
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9, 
+   "SkillDesc"
   ]
  }
 ]

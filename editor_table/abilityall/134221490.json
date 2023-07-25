@@ -240,7 +240,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "\u7269\u7406"
+        ]
     }, 
     "target_attribute": 0, 
     "theme": 1, 

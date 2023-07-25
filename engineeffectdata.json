@@ -1,4 +1,36 @@
 {
+    "color_grading": {
+        "color_grading_type": 4
+    }, 
+    "post_style": {
+        "post_style_shader_params": {
+            "1": {
+                "DepthScale": 3.0, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.05, 
+                        0.03, 
+                        0.03
+                    ]
+                }, 
+                "PixelIntensity": 2.0
+            }, 
+            "4": {
+                "DepthScale": 2.5, 
+                "LineColor": {
+                    "__tuple__": true, 
+                    "items": [
+                        0.05, 
+                        0.05, 
+                        0.05
+                    ]
+                }, 
+                "TotalControl": 0.9
+            }
+        }, 
+        "post_style_type": 0
+    }, 
     "terrain": {
         "terrain_version": 2, 
         "water_materials": [
